@@ -1,7 +1,7 @@
 Directory descriptions:
 
 - `xcd` contains the output of evaluating the published xcdiff network on the validation set
-    - the `nan` values for the atomization energies can be ignore for now -- there is a conflict with how I store the barrier height data that yields nans for the final evaluation, but the scripts within generate the MAE for the AE correctly.
+    - the `nan` values for the atomization energies can be ignored for now -- there is a conflict with how I store the barrier height data that yields nans for the final evaluation, but the scripts within the `notebooks` directory generate the MAE for the AE correctly.
 - `01` contains the training output and outputs of check points from training the pre-trained SCAN model on a subset of XCDiff training molecules evaluated on the validation set. These models were generated with the default network parameters/weights.
     - `train` subdirectory contains the `.config` file output by `train.py` capturing the arguments passed to the program
 - `data` contains subdirectories containing the CCSD(T) calculations of the training subset (`test_subset_ps`, file called `subat_refres.traj`) and the validation set (`validation`, file called `val_c.traj`)
