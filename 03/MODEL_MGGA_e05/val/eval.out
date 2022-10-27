@@ -1,0 +1,536 @@
+READING TESTING TRAJECTORY: /gpfs/scratch/awills/swxcd/aegis/validation/val_c.traj
+Getting energies -- 0: S2
+Getting energies -- 1: C2H2
+Getting energies -- 2: HBe
+Getting energies -- 3: NO2
+Getting energies -- 4: CH4
+Getting energies -- 5: F3P
+Getting energies -- 6: CH2
+Getting energies -- 7: C2H4O2
+Getting energies -- 8: H
+Getting energies -- 9: N2O
+Getting energies -- 10: HN2O
+Getting energies -- 11: HO
+Getting energies -- 12: Cl
+Getting energies -- 13: HClO
+ATOMIZATION ENERGY FLAGGED -- CALCULATING SINGLE ATOM ENERGIES
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+0 (<pyscf.dft.uks.UKS object at 0x7fff1b834e90>, functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>))
+converged SCF energy = -398.166404206181  <S^2> = 2.0068727  2S+1 = 3.0045783
+++++++++++++++++++++++++
+Atomic Energy: S -- -398.1664042061811
+++++++++++++++++++++++++
+1 (<pyscf.dft.uks.UKS object at 0x7fff1b86d690>, functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>))
+converged SCF energy = -460.209622954523  <S^2> = 0.75552067  2S+1 = 2.0055131
+++++++++++++++++++++++++
+Atomic Energy: Cl -- -460.20962295452296
+++++++++++++++++++++++++
+2 (<pyscf.dft.uks.UKS object at 0x7fff1b86d1d0>, functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>))
+converged SCF energy = -341.308313758416  <S^2> = 3.7503614  2S+1 = 4.0001807
+++++++++++++++++++++++++
+Atomic Energy: P -- -341.3083137584164
+++++++++++++++++++++++++
+3 (<pyscf.dft.uks.UKS object at 0x7fff1b86d750>, functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>))
+converged SCF energy = -99.7435073381609  <S^2> = 0.75239247  2S+1 = 2.002391
+++++++++++++++++++++++++
+Atomic Energy: F -- -99.74350733816094
+++++++++++++++++++++++++
+4 (<pyscf.dft.uks.UKS object at 0x7fff1b86dd50>, functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>))
+converged SCF energy = -14.6492533737945  <S^2> = 1.7763568e-15  2S+1 = 1
+++++++++++++++++++++++++
+Atomic Energy: Be -- -14.649253373794469
+++++++++++++++++++++++++
+5 (<pyscf.dft.uks.UKS object at 0x7fff1b7f7fd0>, functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>))
+converged SCF energy = -0.500002664833258  <S^2> = 0.75  2S+1 = 2
+++++++++++++++++++++++++
+Atomic Energy: H -- -0.5000026648332578
+++++++++++++++++++++++++
+6 (<pyscf.dft.uks.UKS object at 0x7fff1b7f78d0>, functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>))
+converged SCF energy = -75.071247665208  <S^2> = 2.0054563  2S+1 = 3.0036353
+++++++++++++++++++++++++
+Atomic Energy: O -- -75.071247665208
+++++++++++++++++++++++++
+7 (<pyscf.dft.uks.UKS object at 0x7fff1b7f72d0>, functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>))
+converged SCF energy = -54.5893897714411  <S^2> = 3.7546631  2S+1 = 4.0023309
+++++++++++++++++++++++++
+Atomic Energy: N -- -54.58938977144111
+++++++++++++++++++++++++
+8 (<pyscf.dft.uks.UKS object at 0x7fff1b86c990>, functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>))
+converged SCF energy = -37.8393694794239  <S^2> = 2.0063061  2S+1 = 3.0042011
+++++++++++++++++++++++++
+Atomic Energy: C -- -37.839369479423894
+++++++++++++++++++++++++
+S 	 -398.1664042061811
+Cl 	 -460.20962295452296
+P 	 -341.3083137584164
+F 	 -99.74350733816094
+Be 	 -14.649253373794469
+H 	 -0.5000026648332578
+O 	 -75.071247665208
+N 	 -54.58938977144111
+C 	 -37.839369479423894
+Attempting read in of previous results.
+S2
+No previous results found. Generating new data.
+================= 0:    S2 ======================
+Getting Datapoint
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -796.507199107803  <S^2> = 2.0125607  2S+1 = 3.0083621
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0352)
+S2 (-796.5071991078025) decomposition -> ['S', 'S']
+S2 - S ::: -796.5071991078025 - -398.1664042061811 = -398.34079490162145
+S2 - S ::: -398.34079490162145 - -398.1664042061811 = -0.17439069544036556
+Predicted Atomization Energy for S2 : -0.17439069544036556
+Reference Atomization Energy for S2 : 0.1652790172181213
+Error: -0.3396697126584869
+Predicted Total Energy for S2 : -796.5071991078025
+Reference Total Energy for S2 : -795.7439189734063
+Error: -0.7632801343962683
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.5826), 'rho': tensor(0.0352), 'atm': tensor(0.1154)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+C2H2
+No previous results found. Generating new data.
+================= 1:    C2H2 ======================
+Getting Datapoint
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -77.3224028922151  <S^2> = 3.5633718e-12  2S+1 = 1
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0063)
+C2H2 (-77.32240289221512) decomposition -> ['C', 'C', 'H', 'H']
+C2H2 - C ::: -77.32240289221512 - -37.839369479423894 = -39.48303341279123
+C2H2 - C ::: -39.48303341279123 - -37.839369479423894 = -1.6436639333673355
+C2H2 - H ::: -1.6436639333673355 - -0.5000026648332578 = -1.1436612685340777
+C2H2 - H ::: -1.1436612685340777 - -0.5000026648332578 = -0.6436586037008198
+Predicted Atomization Energy for C2H2 : -0.6436586037008198
+Reference Atomization Energy for C2H2 : 0.6458922998762915
+Error: -1.2895509035771113
+Predicted Total Energy for C2H2 : -77.32240289221512
+Reference Total Energy for C2H2 : -77.23364708420903
+Error: -0.08875580800609839
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.2952), 'rho': tensor(0.0063), 'atm': tensor(0.8892)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+HBe
+No previous results found. Generating new data.
+================= 2:    HBe ======================
+Getting Datapoint
+Openshell specified in atom info, attempting spin 2.
+RuntimeError. Trying with reduced spin.
+Openshell specified in atom info, attempting spin 2.
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -15.2462256480373  <S^2> = 0.75161397  2S+1 = 2.0016133
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0060)
+HBe (-15.246225648037287) decomposition -> ['Be', 'H']
+HBe - Be ::: -15.246225648037287 - -14.649253373794469 = -0.5969722742428178
+HBe - H ::: -0.5969722742428178 - -0.5000026648332578 = -0.09696960940956001
+Predicted Atomization Energy for HBe : -0.09696960940956001
+Reference Atomization Energy for HBe : 0.08093697552392216
+Error: -0.17790658493348216
+Predicted Total Energy for HBe : -15.246225648037287
+Reference Total Energy for HBe : -15.213086658834586
+Error: -0.0331389892027012
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1972), 'rho': tensor(0.0060), 'atm': tensor(0.6033)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+NO2
+No previous results found. Generating new data.
+================= 3:    NO2 ======================
+Getting Datapoint
+Openshell specified in atom info, attempting spin 2.
+RuntimeError. Trying with reduced spin.
+Openshell specified in atom info, attempting spin 2.
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -205.111908920447  <S^2> = 0.75467468  2S+1 = 2.0046692
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0198)
+NO2 (-205.11190892044743) decomposition -> ['N', 'O', 'O']
+NO2 - N ::: -205.11190892044743 - -54.58938977144111 = -150.5225191490063
+NO2 - O ::: -150.5225191490063 - -75.071247665208 = -75.45127148379831
+NO2 - O ::: -75.45127148379831 - -75.071247665208 = -0.38002381859030265
+Predicted Atomization Energy for NO2 : -0.38002381859030265
+Reference Atomization Energy for NO2 : 0.36339749810529004
+Error: -0.7434213166955927
+Predicted Total Energy for NO2 : -205.11190892044743
+Reference Total Energy for NO2 : -204.87297985889361
+Error: -0.23892906155381866
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1622), 'rho': tensor(0.0198), 'atm': tensor(0.5907)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+CH4
+No previous results found. Generating new data.
+================= 4:    CH4 ======================
+Getting Datapoint
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -40.5108511656497  <S^2> = 6.5814021e-13  2S+1 = 1
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0047)
+CH4 (-40.51085116564967) decomposition -> ['C', 'H', 'H', 'H', 'H']
+CH4 - C ::: -40.51085116564967 - -37.839369479423894 = -2.671481686225775
+CH4 - H ::: -2.671481686225775 - -0.5000026648332578 = -2.171479021392517
+CH4 - H ::: -2.171479021392517 - -0.5000026648332578 = -1.671476356559259
+CH4 - H ::: -1.671476356559259 - -0.5000026648332578 = -1.1714736917260011
+CH4 - H ::: -1.1714736917260011 - -0.5000026648332578 = -0.6714710268927433
+Predicted Atomization Energy for CH4 : -0.6714710268927433
+Reference Atomization Energy for CH4 : 0.6695182791315805
+Error: -1.3409893060243236
+Predicted Total Energy for CH4 : -40.51085116564967
+Reference Total Energy for CH4 : -40.46144804424925
+Error: -0.049403121400416694
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1302), 'rho': tensor(0.0047), 'atm': tensor(0.8322)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+F3P
+No previous results found. Generating new data.
+================= 5:    F3P ======================
+Getting Datapoint
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -641.115495154084  <S^2> = 2.4158453e-13  2S+1 = 1
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0317)
+F3P (-641.115495154084) decomposition -> ['P', 'F', 'F', 'F']
+F3P - P ::: -641.115495154084 - -341.3083137584164 = -299.8071813956676
+F3P - F ::: -299.8071813956676 - -99.74350733816094 = -200.06367405750666
+F3P - F ::: -200.06367405750666 - -99.74350733816094 = -100.32016671934572
+F3P - F ::: -100.32016671934572 - -99.74350733816094 = -0.5766593811847827
+Predicted Atomization Energy for F3P : -0.5766593811847827
+Reference Atomization Energy for F3P : 0.5830966332662726
+Error: -1.1597560144510553
+Predicted Total Energy for F3P : -641.115495154084
+Reference Total Energy for F3P : -640.4601109820627
+Error: -0.6553841720212858
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1801), 'rho': tensor(0.0317), 'atm': tensor(0.9177)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+CH2
+No previous results found. Generating new data.
+================= 6:    CH2 ======================
+Getting Datapoint
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -39.1345179078124  <S^2> = 2.0078692  2S+1 = 3.0052416
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0097)
+CH2 (-39.134517907812395) decomposition -> ['C', 'H', 'H']
+CH2 - C ::: -39.134517907812395 - -37.839369479423894 = -1.2951484283885009
+CH2 - H ::: -1.2951484283885009 - -0.5000026648332578 = -0.795145763555243
+CH2 - H ::: -0.795145763555243 - -0.5000026648332578 = -0.2951430987219852
+Predicted Atomization Energy for CH2 : -0.2951430987219852
+Reference Atomization Energy for CH2 : 0.28849746875574045
+Error: -0.5836405674777256
+Predicted Total Energy for CH2 : -39.134517907812395
+Reference Total Energy for CH2 : -39.08309334882895
+Error: -0.05142455898344167
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1548), 'rho': tensor(0.0097), 'atm': tensor(0.8352)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+C2H4O2
+No previous results found. Generating new data.
+================= 7:    C2H4O2 ======================
+Getting Datapoint
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -229.090947766239  <S^2> = 2.7660363e-10  2S+1 = 1
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0165)
+C2H4O2 (-229.09094776623886) decomposition -> ['C', 'O', 'O', 'H', 'C', 'H', 'H', 'H']
+C2H4O2 - C ::: -229.09094776623886 - -37.839369479423894 = -191.25157828681495
+C2H4O2 - O ::: -191.25157828681495 - -75.071247665208 = -116.18033062160694
+C2H4O2 - O ::: -116.18033062160694 - -75.071247665208 = -41.109082956398936
+C2H4O2 - H ::: -41.109082956398936 - -0.5000026648332578 = -40.609080291565675
+C2H4O2 - C ::: -40.609080291565675 - -37.839369479423894 = -2.7697108121417813
+C2H4O2 - H ::: -2.7697108121417813 - -0.5000026648332578 = -2.269708147308523
+C2H4O2 - H ::: -2.269708147308523 - -0.5000026648332578 = -1.7697054824752654
+C2H4O2 - H ::: -1.7697054824752654 - -0.5000026648332578 = -1.2697028176420075
+Predicted Atomization Energy for C2H4O2 : -1.2697028176420075
+Reference Atomization Energy for C2H4O2 : 1.2540889175521006
+Error: -2.5237917351941084
+Predicted Total Energy for C2H4O2 : -229.09094776623886
+Reference Total Energy for C2H4O2 : -228.8242969783602
+Error: -0.26665078787866037
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1443), 'rho': tensor(0.0165), 'atm': tensor(1.5270)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+H
+No previous results found. Generating new data.
+================= 8:    H ======================
+Getting Datapoint
+Spin specified in atom info.
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -0.500002664849083  <S^2> = 0.75  2S+1 = 2
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0024)
+SINGLE ATOM -- NO ATOMIZATION CALCULATION.
+Predicted Total Energy for H : -0.5000026648490825
+Reference Total Energy for H : -0.49981791563041966
+Error: -0.00018474921866284966
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1283), 'rho': tensor(0.0024), 'atm': tensor(1.5270)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+N2O
+No previous results found. Generating new data.
+================= 9:    N2O ======================
+Getting Datapoint
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -184.687727988417  <S^2> = 7.6028073e-13  2S+1 = 1
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0145)
+N2O (-184.68772798841746) decomposition -> ['N', 'N', 'O']
+N2O - N ::: -184.68772798841746 - -54.58938977144111 = -130.09833821697634
+N2O - N ::: -130.09833821697634 - -54.58938977144111 = -75.50894844553522
+N2O - O ::: -75.50894844553522 - -75.071247665208 = -0.43770078032721926
+Predicted Atomization Energy for N2O : -0.43770078032721926
+Reference Atomization Energy for N2O : nan
+Error: nan
+Predicted Total Energy for N2O : -184.68772798841746
+Reference Total Energy for N2O : -184.47881913926975
+Error: -0.20890884914771846
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1198), 'rho': tensor(0.0145), 'atm': tensor(nan)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+HN2O
+No previous results found. Generating new data.
+================= 10:    HN2O ======================
+Getting Datapoint
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -185.172536776518  <S^2> = 0.76881123  2S+1 = 2.0187236
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0207)
+HN2O (-185.1725367765183) decomposition -> ['H', 'O', 'N', 'N']
+HN2O - H ::: -185.1725367765183 - -0.5000026648332578 = -184.67253411168505
+HN2O - O ::: -184.67253411168505 - -75.071247665208 = -109.60128644647705
+HN2O - N ::: -109.60128644647705 - -54.58938977144111 = -55.011896675035935
+HN2O - N ::: -55.011896675035935 - -54.58938977144111 = -0.42250690359482235
+Predicted Atomization Energy for HN2O : -0.42250690359482235
+Reference Atomization Energy for HN2O : nan
+Error: nan
+Predicted Total Energy for HN2O : -185.1725367765183
+Reference Total Energy for HN2O : -184.94901512929493
+Error: -0.22352164722337875
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1135), 'rho': tensor(0.0207), 'atm': tensor(nan)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+HO
+No previous results found. Generating new data.
+================= 11:    HO ======================
+Getting Datapoint
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -75.7460313349792  <S^2> = 0.75386379  2S+1 = 2.0038601
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.2940)
+HO (-75.74603133497918) decomposition -> ['O', 'H']
+HO - O ::: -75.74603133497918 - -75.071247665208 = -0.6747836697711733
+HO - H ::: -0.6747836697711733 - -0.5000026648332578 = -0.17478100493791549
+Predicted Atomization Energy for HO : -0.17478100493791549
+Reference Atomization Energy for HO : nan
+Error: nan
+Predicted Total Energy for HO : -75.74603133497918
+Reference Total Energy for HO : -75.6622671033986
+Error: -0.08376423158057378
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1046), 'rho': tensor(0.2940), 'atm': tensor(nan)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+Cl
+No previous results found. Generating new data.
+================= 12:    Cl ======================
+Getting Datapoint
+Spin specified in atom info.
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -460.209624624445  <S^2> = 0.75552436  2S+1 = 2.0055168
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.2252)
+SINGLE ATOM -- NO ATOMIZATION CALCULATION.
+Predicted Total Energy for Cl : -460.2096246244455
+Reference Total Energy for Cl : -459.75483999758393
+Error: -0.4547846268615672
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1124), 'rho': tensor(0.2252), 'atm': tensor(nan)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+HClO
+No previous results found. Generating new data.
+================= 13:    HClO ======================
+Getting Datapoint
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de61b00>, method=<function UKS at 0x7fff1be37320>)
+converged SCF energy = -535.957399543085  <S^2> = 2.0118758  2S+1 = 3.0079068
+/gpfs/projects/FernandezGroup/Alec/miniconda3/envs/rsrch/lib/python3.7/site-packages/ase/io/jsonio.py:58: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  a = np.array(obj)
+NON-2D DM
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0482)
+HClO (-535.9573995430854) decomposition -> ['Cl', 'H', 'O']
+HClO - Cl ::: -535.9573995430854 - -460.20962295452296 = -75.74777658856249
+HClO - H ::: -75.74777658856249 - -0.5000026648332578 = -75.24777392372923
+HClO - O ::: -75.24777392372923 - -75.071247665208 = -0.17652625852122128
+Predicted Atomization Energy for HClO : -0.17652625852122128
+Reference Atomization Energy for HClO : nan
+Error: nan
+Predicted Total Energy for HClO : -535.9573995430854
+Reference Total Energy for HClO : -535.4004261314922
+Error: -0.5569734115932761
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1266), 'rho': tensor(0.0482), 'atm': tensor(nan)}
++++++++++++++++++++++++++++++++
