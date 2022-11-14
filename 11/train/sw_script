@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --job-name=pts_10
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=alec.wills@stonybrook.edu
+#SBATCH --output=subat.txt
+#SBATCH --ntasks-per-node=40
+#SBATCH --nodes=4
+#SBATCH --time=48:00:00
+#SBATCH -p long-40core
+
+cd $HOME
+source .bashrc
+source /gpfs/projects/FernandezGroup/Alec/miniconda3/etc/profile.d/conda.sh
+
+conda init bash
+conda activate rsrch
+
+cd /gpfs/scratch/awills/swxcd/train/test_subset_ps2/10
+
+python /gpfs/home/awills/dpyscfl/scripts/train.py \
+--pretrain_loc /gpfs/home/awills/dpyscfl/models/pretrained/scan \
+--type MGGA --datapath /gpfs/scratch/awills/swxcd/data/test_subset_ps2/07 \
+--reftraj /gpfs/scratch/awills/swxcd/aegis/test_subset_ps2/06/subat_ref.traj \
+--targetdir /gpfs/scratch/awills/swxcd/eval/test_subset_ps2/10 \
+ --noxcdiffpop --logpath . --passthrough --chkptmax 20 --hnorm
