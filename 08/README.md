@@ -50,3 +50,7 @@ Plotted graphs show evaluation of the models on the validation set:
         - Files with `_dev` in the name plot the total deviation from the first epoch's value
         - Files with `_per` in the name plot the percent change from the first epoch's value
         - Files with `_log` in the name plot the values on a symlog y-axis
+- `bins` contains the histograms of each training molecule's binned $x_1$, $x_2$, and $x_3$ parameters.
+    - `bin.pdf` contains the total binned histogram, combining each molecule in the training set.
+    - `bin_zoom.pdf` contains the same image as above, but with a lower x-limit of -20.
+    - `{idx}_{symbols}_bin.pdf` contain the molecule's individual parameter binning

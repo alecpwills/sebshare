@@ -1,0 +1,5 @@
+- `val` contains the published XCDiff network evaluated on the validation set
+- `bins` contains the histograms of each training molecule's binned $x_1$, $x_2$, and $x_3$ parameters.
+    - `bin.pdf` contains the total binned histogram, combining each molecule in the training set.
+    - `bin_zoom.pdf` contains the same image as above, but with a lower x-limit of -20.
+    - `{idx}_{symbols}_bin.pdf` contain the molecule's individual parameter binning

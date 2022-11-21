@@ -21,7 +21,6 @@ Plotted graphs show evaluation of the models on the validation set:
 - H + N2O -> HON2
 - OH + CL -> CLHO
 
-- `04_bhval.png` contains the predicted validation barrier heights using both xcdiff and the last model generated in training
 - `04_valloss_last.png` contains plots showing the evaluated network's predicted AE and total energies, compared to reference (literature or CCSD(T)) and XCDiff. The last generated model's evaluation here is plotted.
 - `04_valloss_epochs.png` contains plots showing the evaluated AE and total energies as the epochs increase.
 - `04_valloss_rho.png` contains a plot showing the validation dataset index vs. the density loss for each model.
@@ -43,3 +42,7 @@ Plotted graphs show evaluation of the models on the validation set:
         - Files with `_dev` in the name plot the total deviation from the first epoch's value
         - Files with `_per` in the name plot the percent change from the first epoch's value
         - Files with `_log` in the name plot the values on a symlog y-axis
+- `bins` contains the histograms of each training molecule's binned $x_1$, $x_2$, and $x_3$ parameters.
+    - `bin.pdf` contains the total binned histogram, combining each molecule in the training set.
+    - `bin_zoom.pdf` contains the same image as above, but with a lower x-limit of -20.
+    - `{idx}_{symbols}_bin.pdf` contain the molecule's individual parameter binning
