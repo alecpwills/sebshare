@@ -1,0 +1,348 @@
+READING TESTING TRAJECTORY: /gpfs/scratch/awills/swxcd/aegis/validation/val_c.traj
+Getting energies -- 0: S2
+Getting energies -- 1: C2H2
+Getting energies -- 2: HBe
+Getting energies -- 3: NO2
+Getting energies -- 4: CH4
+Getting energies -- 5: F3P
+Getting energies -- 6: CH2
+Getting energies -- 7: C2H4O2
+Getting energies -- 8: H
+Getting energies -- 9: N2O
+Getting energies -- 10: HN2O
+Getting energies -- 11: HO
+Getting energies -- 12: Cl
+Getting energies -- 13: HClO
+Attempting read in of previous results.
+S2
+Results found for 0 S2
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0311)
+S2 (-796.409242899133) decomposition -> ['S', 'S']
+S2 - S ::: -796.409242899133 - -398.10918970088596 = -398.30005319824704
+S2 - S ::: -398.30005319824704 - -398.10918970088596 = -0.19086349736107877
+Predicted Atomization Energy for S2 : -0.19086349736107877
+Reference Atomization Energy for S2 : 0.1652790172181213
+Error: -0.3561425145792001
+Predicted Total Energy for S2 : -796.409242899133
+Reference Total Energy for S2 : -795.7439189734063
+Error: -0.6653239257267387
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.4427), 'rho': tensor(0.0311), 'atm': tensor(0.1268)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+C2H2
+Results found for 1 C2H2
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0123)
+C2H2 (-77.30908358185654) decomposition -> ['C', 'C', 'H', 'H']
+C2H2 - C ::: -77.30908358185654 - -37.81673841397364 = -39.4923451678829
+C2H2 - C ::: -39.4923451678829 - -37.81673841397364 = -1.675606753909264
+C2H2 - H ::: -1.675606753909264 - -0.49844861516554595 = -1.1771581387437182
+C2H2 - H ::: -1.1771581387437182 - -0.49844861516554595 = -0.6787095235781723
+Predicted Atomization Energy for C2H2 : -0.6787095235781723
+Reference Atomization Energy for C2H2 : 0.6458922998762915
+Error: -1.3246018234544636
+Predicted Total Energy for C2H2 : -77.30908358185654
+Reference Total Energy for C2H2 : -77.23364708420903
+Error: -0.07543649764751592
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.2242), 'rho': tensor(0.0123), 'atm': tensor(0.9407)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+HBe
+Results found for 2 BeH
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0049)
+HBe (-15.234972594911659) decomposition -> ['Be', 'H']
+HBe - Be ::: -15.234972594911659 - -14.642483628857054 = -0.5924889660546047
+HBe - H ::: -0.5924889660546047 - -0.49844861516554595 = -0.09404035088905871
+Predicted Atomization Energy for HBe : -0.09404035088905871
+Reference Atomization Energy for HBe : 0.08093697552392216
+Error: -0.17497732641298086
+Predicted Total Energy for HBe : -15.234972594911659
+Reference Total Energy for HBe : -15.213086658834586
+Error: -0.0218859360770729
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1496), 'rho': tensor(0.0049), 'atm': tensor(0.6373)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+NO2
+Results found for 3 NO2
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0233)
+NO2 (-205.09584401163727) decomposition -> ['N', 'O', 'O']
+NO2 - N ::: -205.09584401163727 - -54.56705919171267 = -150.5287848199246
+NO2 - O ::: -150.5287848199246 - -75.05187374338985 = -75.47691107653475
+NO2 - O ::: -75.47691107653475 - -75.05187374338985 = -0.4250373331448998
+Predicted Atomization Energy for NO2 : -0.4250373331448998
+Reference Atomization Energy for NO2 : 0.36339749810529004
+Error: -0.7884348312501899
+Predicted Total Energy for NO2 : -205.09584401163727
+Reference Total Energy for NO2 : -204.87297985889361
+Error: -0.22286415274365368
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1246), 'rho': tensor(0.0233), 'atm': tensor(0.6334)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+CH4
+Results found for 4 CH4
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0107)
+CH4 (-40.501094603044336) decomposition -> ['C', 'H', 'H', 'H', 'H']
+CH4 - C ::: -40.501094603044336 - -37.81673841397364 = -2.684356189070698
+CH4 - H ::: -2.684356189070698 - -0.49844861516554595 = -2.185907573905152
+CH4 - H ::: -2.185907573905152 - -0.49844861516554595 = -1.6874589587396063
+CH4 - H ::: -1.6874589587396063 - -0.49844861516554595 = -1.1890103435740604
+CH4 - H ::: -1.1890103435740604 - -0.49844861516554595 = -0.6905617284085145
+Predicted Atomization Energy for CH4 : -0.6905617284085145
+Reference Atomization Energy for CH4 : 0.6695182791315805
+Error: -1.360080007540095
+Predicted Total Energy for CH4 : -40.501094603044336
+Reference Total Energy for CH4 : -40.46144804424925
+Error: -0.039646558795084275
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1000), 'rho': tensor(0.0107), 'atm': tensor(0.8767)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+F3P
+Results found for 5 PF3
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0363)
+F3P (-641.0551933061187) decomposition -> ['P', 'F', 'F', 'F']
+F3P - P ::: -641.0551933061187 - -341.2546774382331 = -299.80051586788557
+F3P - F ::: -299.80051586788557 - -99.72496571018193 = -200.07555015770362
+F3P - F ::: -200.07555015770362 - -99.72496571018193 = -100.35058444752168
+F3P - F ::: -100.35058444752168 - -99.72496571018193 = -0.6256187373397495
+Predicted Atomization Energy for F3P : -0.6256187373397495
+Reference Atomization Energy for F3P : 0.5830966332662726
+Error: -1.208715370606022
+Predicted Total Energy for F3P : -641.0551933061187
+Reference Total Energy for F3P : -640.4601109820627
+Error: -0.5950823240559657
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1424), 'rho': tensor(0.0363), 'atm': tensor(0.9741)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+CH2
+Results found for 6 CH2
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0128)
+CH2 (-39.1192146042662) decomposition -> ['C', 'H', 'H']
+CH2 - C ::: -39.1192146042662 - -37.81673841397364 = -1.302476190292559
+CH2 - H ::: -1.302476190292559 - -0.49844861516554595 = -0.8040275751270131
+CH2 - H ::: -0.8040275751270131 - -0.49844861516554595 = -0.3055789599614671
+Predicted Atomization Energy for CH2 : -0.3055789599614671
+Reference Atomization Energy for CH2 : 0.28849746875574045
+Error: -0.5940764287172076
+Predicted Total Energy for CH2 : -39.1192146042662
+Reference Total Energy for CH2 : -39.08309334882895
+Error: -0.036121255437244315
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1222), 'rho': tensor(0.0128), 'atm': tensor(0.8853)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+C2H4O2
+Results found for 7 CO2HCH3
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0255)
+C2H4O2 (-229.05809908944866) decomposition -> ['C', 'O', 'O', 'H', 'C', 'H', 'H', 'H']
+C2H4O2 - C ::: -229.05809908944866 - -37.81673841397364 = -191.24136067547502
+C2H4O2 - O ::: -191.24136067547502 - -75.05187374338985 = -116.18948693208517
+C2H4O2 - O ::: -116.18948693208517 - -75.05187374338985 = -41.137613188695326
+C2H4O2 - H ::: -41.137613188695326 - -0.49844861516554595 = -40.63916457352978
+C2H4O2 - C ::: -40.63916457352978 - -37.81673841397364 = -2.8224261595561444
+C2H4O2 - H ::: -2.8224261595561444 - -0.49844861516554595 = -2.3239775443905986
+C2H4O2 - H ::: -2.3239775443905986 - -0.49844861516554595 = -1.8255289292250527
+C2H4O2 - H ::: -1.8255289292250527 - -0.49844861516554595 = -1.3270803140595069
+Predicted Atomization Energy for C2H4O2 : -1.3270803140595069
+Reference Atomization Energy for C2H4O2 : 1.2540889175521006
+Error: -2.5811692316116073
+Predicted Total Energy for C2H4O2 : -229.05809908944866
+Reference Total Energy for C2H4O2 : -228.8242969783602
+Error: -0.23380211108846538
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1138), 'rho': tensor(0.0255), 'atm': tensor(1.6075)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+H
+Results found for 8 H
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0022)
+SINGLE ATOM -- NO ATOMIZATION CALCULATION.
+Predicted Total Energy for H : -0.49844861518127187
+Reference Total Energy for H : -0.49981791563041966
+Error: 0.0013693004491477923
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.1011), 'rho': tensor(0.0022), 'atm': tensor(1.6075)}/gpfs/projects/FernandezGroup/Alec/miniconda3/envs/rsrch/lib/python3.7/site-packages/ase/io/jsonio.py:58: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  a = np.array(obj)
+
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+N2O
+Results found for 9 N2O
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0216)
+N2O (-184.67486077694508) decomposition -> ['N', 'N', 'O']
+N2O - N ::: -184.67486077694508 - -54.56705919171267 = -130.1078015852324
+N2O - N ::: -130.1078015852324 - -54.56705919171267 = -75.54074239351974
+N2O - O ::: -75.54074239351974 - -75.05187374338985 = -0.4888686501298878
+Predicted Atomization Energy for N2O : -0.4888686501298878
+Reference Atomization Energy for N2O : nan
+Error: nan
+Predicted Total Energy for N2O : -184.67486077694508
+Reference Total Energy for N2O : -184.47881913926975
+Error: -0.19604163767533578
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.0949), 'rho': tensor(0.0216), 'atm': tensor(nan)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+HN2O
+Results found for 10 HON2
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0279)
+HN2O (-185.15931342495384) decomposition -> ['H', 'O', 'N', 'N']
+HN2O - H ::: -185.15931342495384 - -0.49844861516554595 = -184.66086480978828
+HN2O - O ::: -184.66086480978828 - -75.05187374338985 = -109.60899106639843
+HN2O - N ::: -109.60899106639843 - -54.56705919171267 = -55.04193187468576
+HN2O - N ::: -55.04193187468576 - -54.56705919171267 = -0.4748726829730856
+Predicted Atomization Energy for HN2O : -0.4748726829730856
+Reference Atomization Energy for HN2O : nan
+Error: nan
+Predicted Total Energy for HN2O : -185.15931342495384
+Reference Total Energy for HN2O : -184.94901512929493
+Error: -0.21029829565890168
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.0903), 'rho': tensor(0.0279), 'atm': tensor(nan)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+HO
+Results found for 11 OH
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.3676)
+HO (-75.72935110026631) decomposition -> ['O', 'H']
+HO - O ::: -75.72935110026631 - -75.05187374338985 = -0.6774773568764658
+HO - H ::: -0.6774773568764658 - -0.49844861516554595 = -0.17902874171091987
+Predicted Atomization Energy for HO : -0.17902874171091987
+Reference Atomization Energy for HO : nan
+Error: nan
+Predicted Total Energy for HO : -75.72935110026631
+Reference Total Energy for HO : -75.6622671033986
+Error: -0.0670839968677086
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.0831), 'rho': tensor(0.3676), 'atm': tensor(nan)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+Cl
+Results found for 12 Cl
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.1700)
+SINGLE ATOM -- NO ATOMIZATION CALCULATION.
+Predicted Total Energy for Cl : -460.1472851146934
+Reference Total Energy for Cl : -459.75483999758393
+Error: -0.3924451171094461
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.0886), 'rho': tensor(0.1700), 'atm': tensor(nan)}
++++++++++++++++++++++++++++++++
+Attempting read in of previous results.
+HClO
+Results found for 13 ClHO
+NON-2D DM
+NON-2D DM
+NON-2D DM
+Rho Error:  tensor(0.0619)
+HClO (-535.8868528342576) decomposition -> ['Cl', 'H', 'O']
+HClO - Cl ::: -535.8868528342576 - -460.1472884107901 = -75.73956442346753
+HClO - H ::: -75.73956442346753 - -0.49844861516554595 = -75.24111580830198
+HClO - O ::: -75.24111580830198 - -75.05187374338985 = -0.18924206491213624
+Predicted Atomization Energy for HClO : -0.18924206491213624
+Reference Atomization Energy for HClO : nan
+Error: nan
+Predicted Total Energy for HClO : -535.8868528342576
+Reference Total Energy for HClO : -535.4004261314922
+Error: -0.4864267027654705
+E
+rho
+atm
++++++++++++++++++++++++++++++++
+RUNNING LOSS
+{'E': tensor(0.0991), 'rho': tensor(0.0619), 'atm': tensor(nan)}
++++++++++++++++++++++++++++++++
