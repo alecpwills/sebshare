@@ -14,18 +14,19 @@ This directory contains the evaluation/training outputs from training the *pre-t
 
 Plotted graphs show evaluation of the models on the validation set:
 #### Validation AE
-- S2
-- C2H2
-- BeH
-- NO2
-- CH4
-- PF3
-- CH2
-- CO2HCH3
+- $\mathrm{S_2}$
+- $\mathrm{C_2H_2}$
+- $\mathrm{BeH}$
+- $\mathrm{NO_2}$
+- $\mathrm{CH_4}$
+- $\mathrm{PF_3}$
+- $\mathrm{CH_2}$
+- $\mathrm{CO_2HCH_3}$
 #### Validation BH
-- H + N2O -> HON2
-- OH + CL -> CLHO
+- $\mathrm{H + N_2O} \to \mathrm{HON_2}$
+- $\mathrm{OH + Cl} \to \mathrm{ClHO}$
 
+#### File Summary
 - `17_valloss_last.png` contains plots showing the evaluated network's predicted AE and total energies, compared to reference (literature or CCSD(T)) and XCDiff. The last generated model's evaluation here is plotted.
 - `17_valloss_epochs.png` contains plots showing the evaluated AE and total energies as the epochs increase.
 - `17_valloss_rho.png` contains a plot showing the validation dataset index vs. the density loss for each model.
