@@ -11,6 +11,7 @@ This directory contains the various scripts for:
     - `plot_enhancement.py`
 - using a model to evaluate a given trajectory
     - `eval.py`
+- `example_submissions` just have typical cluster submission scripts to illustrate how I invoke the scripts
 
 # Script Flow
 
