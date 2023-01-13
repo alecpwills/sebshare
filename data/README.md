@@ -1,0 +1,158 @@
+# Summary of Data Folder
+All directories in this folder contain the results of `run_pyscf.py` on a given subset of data.
+
+- `01` contains the following subset:
+    - H2
+    - H
+- `02` contains the following subset:
+    - H2
+	- N2
+	- H
+	- N
+- `03` contains the following subset:
+    - H2
+	- N2
+	- LiF
+	- F
+	- H
+	- Li
+	- N
+- `04` contains the following subset:
+    - H2
+	- N2
+	- LiF
+	- CNH
+	- C
+	- F
+	- H
+	- Li
+	- N
+- `05` contains the following subset:
+    - H2
+	- N2
+	- LiF
+	- CNH
+	- CO2
+	- C
+	- F
+	- H
+	- Li
+	- N
+	- O
+- `06` contains the following subset:
+    - H2
+	- N2
+	- LiF
+	- CNH
+	- CO2
+	- Cl2
+	- C
+	- Cl
+	- F
+	- H
+	- Li
+	- N
+	- O
+- `07` contains the following subset:
+    - H2
+	- N2
+	- LiF
+	- CNH
+	- CO2
+	- Cl2
+	- F2
+	- C2H2
+	- OC
+	- ClH
+	- LiH
+	- Na2
+	- C
+	- Cl
+	- F
+	- H
+	- Li
+	- N
+	- Na
+	- O
+- `08` contains the following subset:
+    - H2
+	- N2
+	- LiF
+	- CNH
+	- CO2
+	- Cl2
+	- F2
+	- C2H2
+	- OC
+	- ClH
+	- LiH
+	- Na2
+	- C
+	- Cl
+	- F
+	- H
+	- Li
+	- N
+	- Na
+	- O
+	- NO
+	- NO2
+	- NH
+	- O3
+	- N2O
+	- CH3
+	- CH2
+	- OH2
+	- NH3
+	- OH
+- `09` contains the **entire XCDiff training set as given in the published paper.**:
+- `10` contains the following subset:
+    - H2
+	- N2
+	- LiF
+	- CNH
+	- C
+	- F
+	- H
+	- Li
+	- N
+	- C+ -> C
+	- Li+ -> Li
+- `11` contains the following subset:
+    - H2
+	- N2
+	- LiF
+	- CNH
+	- C
+	- F
+	- H
+	- Li
+	- N
+	- OH+N2->HON2
+	- OH+CH3->CH4O
+	- F+HF->HF2
+- `12` contains the following subset:
+    - H2
+	- N2
+	- LiF
+	- CNH
+	- C
+	- F
+	- H
+	- Li
+	- NOH+N2->HON2
+	- OH+CH3->CH4O
+	- F+HF->HF2
+	- C+ -> C
+	- Li+ -> Li
+- `validation` contains the validation set:
+    - C2H2
+	- BeH
+	- NO2
+	- S2
+	- CH4
+	- PF3
+	- CH2
+	- C2H4O2
+	- N2O+H -> OH + N2
+	- OH + CL -> O + HC
