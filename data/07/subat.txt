@@ -1,0 +1,338 @@
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/condabin/conda
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/bin/conda
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/bin/conda-env
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/bin/activate
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/bin/deactivate
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/etc/profile.d/conda.sh
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/etc/fish/conf.d/conda.fish
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/shell/condabin/Conda.psm1
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/shell/condabin/conda-hook.ps1
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /gpfs/projects/FernandezGroup/Alec/miniconda3/etc/profile.d/conda.csh
+no change     /gpfs/home/awills/.bashrc
+No action taken.
+beginning new progress file
+beginning new nonconverged file
+SERIAL CALCULATIONS
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: H2 ---> H2
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 0 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c126910>
+Running HF calculation
+converged SCF energy = -1.13297503805442  <S^2> = 2.1538327e-14  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -1.172348886566821  E_corr = -0.03937384851239947
+MO Occ shape:  (2, 30)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = 0
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: N2 ---> N2
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 1 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c126910>
+Running HF calculation
+converged SCF energy = -108.981458280315  <S^2> = 3.828049e-13  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -109.3998719049753  E_corr = -0.4184136246602749
+MO Occ shape:  (2, 78)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.0192905252134754
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: LiF ---> FLi
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 2 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c126910>
+Running HF calculation
+converged SCF energy = -106.979040092607  <S^2> = 1.6431301e-12  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -107.297402919001  E_corr = -0.3183628263940175
+MO Occ shape:  (2, 78)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.00853928604696927
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: CNH ---> CHN
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 3 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c07de10>
+Running HF calculation
+converged SCF energy = -92.9074711169768  <S^2> = 8.181793e-10  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -93.30314307963961  E_corr = -0.3956719626627961
+MO Occ shape:  (2, 93)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.0186109666993637
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: CO2 ---> CO2
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 4 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c07df10>
+Running HF calculation
+converged SCF energy = -187.70593653947  <S^2> = 1.7230661e-12  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -188.3718654590038  E_corr = -0.6659289195334034
+MO Occ shape:  (2, 117)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.0298932915623726
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: Cl2 ---> Cl2
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 5 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff7803f8d0>
+Running HF calculation
+converged SCF energy = -918.983343301362  <S^2> = 5.2082783e-12  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -919.5753743043425  E_corr = -0.5920310029809623
+MO Occ shape:  (2, 94)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.0205168842191986
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: F2 ---> F2
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 6 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c12e810>
+Running HF calculation
+converged SCF energy = -198.745478797181  <S^2> = 2.3714364e-11  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -199.3176278072631  E_corr = -0.5721490100820986
+MO Occ shape:  (2, 78)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.0188381675025421
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: C2H2 ---> C2H2
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 7 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c115390>
+Running HF calculation
+converged SCF energy = -76.8485833183292  <S^2> = 6.1817218e-13  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -77.2165899733501  E_corr = -0.3680066550209161
+MO Occ shape:  (2, 108)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.0170571259691978
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: OC ---> CO
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 8 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff687c9050>
+Running HF calculation
+converged SCF energy = -112.779199082437  <S^2> = 2.8297364e-12  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -113.1840091089281  E_corr = -0.4048100264909333
+MO Occ shape:  (2, 78)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.0177211075869213
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: ClH ---> HCl
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 9 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c07de10>
+Running HF calculation
+converged SCF energy = -460.100363310706  <S^2> = 3.0424552e-10  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -460.4142684185517  E_corr = -0.3139051078456493
+MO Occ shape:  (2, 62)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.00918544819605831
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: LiH ---> HLi
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 10 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff687d5d10>
+Running HF calculation
+converged SCF energy = -7.98610189698833  <S^2> = 2.5446312e-13  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -8.037999588659028  E_corr = -0.05189769167069601
+MO Occ shape:  (2, 54)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -8.03178193496631e-05
+No specifications in atom info to help, assuming no spin.
+===========================
+Option Summary: Na2 ---> Na2
+Spin: 0, Polarized: True, Charge: 0
+===========================
+Generating mol 11 with charge 0
+S:  0
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff687c9a90>
+Running HF calculation
+converged SCF energy = -323.691017437589  <S^2> = 4.736652e-09  2S+1 = 1
+Running CCSD calculation from HF
+E(UCCSD) = -324.0275937699263  E_corr = -0.336576332337604
+MO Occ shape:  (2, 94)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.00457409718406758
+Spin specified in atom info.
+===========================
+Option Summary: C ---> C
+Spin: 2, Polarized: True, Charge: 0
+===========================
+Generating mol 12 with charge 0
+S:  2
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c126f10>
+Running HF calculation
+converged SCF energy = -37.6902525074205  <S^2> = 2.0102068  2S+1 = 3.0067968
+Running CCSD calculation from HF
+E(UCCSD) = -37.79681847880303  E_corr = -0.106565971382517
+MO Occ shape:  (2, 39)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.00226448787524847
+Spin specified in atom info.
+===========================
+Option Summary: Cl ---> Cl
+Spin: 1, Polarized: True, Charge: 0
+===========================
+Generating mol 13 with charge 0
+S:  1
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff687c9a90>
+Running HF calculation
+converged SCF energy = -459.477193424041  <S^2> = 0.75980244  2S+1 = 2.0097785
+Running CCSD calculation from HF
+E(UCCSD) = -459.7480187483307  E_corr = -0.2708253242901384
+MO Occ shape:  (2, 47)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.00682124925376689
+Spin specified in atom info.
+===========================
+Option Summary: F ---> F
+Spin: 1, Polarized: True, Charge: 0
+===========================
+Generating mol 14 with charge 0
+S:  1
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff687c9390>
+Running HF calculation
+converged SCF energy = -99.4018090160188  <S^2> = 0.75401539  2S+1 = 2.0040114
+Running CCSD calculation from HF
+E(UCCSD) = -99.63670732274585  E_corr = -0.2348983067270321
+MO Occ shape:  (2, 39)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.0041963849558846
+Spin specified in atom info.
+===========================
+Option Summary: H ---> H
+Spin: 1, Polarized: True, Charge: 0
+===========================
+Generating mol 15 with charge 0
+S:  1
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c126f10>
+Running HF calculation
+converged SCF energy = -0.49981791563042  <S^2> = 0.75  2S+1 = 2
+Running CCSD calculation from HF
+E(UCCSD) = -0.4998179156304198  E_corr = -4.609632392557484e-18
+MO Occ shape:  (2, 15)
+Running CCSD(T) calculation from CCSD
+CCSD(T) Failed. DIV/0. Stopping at CCSD
+Spin specified in atom info.
+===========================
+Option Summary: Li ---> Li
+Spin: 1, Polarized: True, Charge: 0
+===========================
+Generating mol 16 with charge 0
+S:  1
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c07db90>
+Running HF calculation
+converged SCF energy = -7.43202688483144  <S^2> = 0.75001071  2S+1 = 2.0000107
+Running CCSD calculation from HF
+E(UCCSD) = -7.447579451221097  E_corr = -0.01555256638965799
+MO Occ shape:  (2, 39)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -1.72608608883292e-05
+Spin specified in atom info.
+===========================
+Option Summary: N ---> N
+Spin: 3, Polarized: True, Charge: 0
+===========================
+Generating mol 17 with charge 0
+S:  3
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff687c9c90>
+Running HF calculation
+converged SCF energy = -54.3988924789742  <S^2> = 3.7577297  2S+1 = 4.003863
+Running CCSD calculation from HF
+E(UCCSD) = -54.53145416215018  E_corr = -0.1325616831759795
+MO Occ shape:  (2, 39)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.0025099769544551
+Spin specified in atom info.
+===========================
+Option Summary: Na ---> Na
+Spin: 1, Polarized: True, Charge: 0
+===========================
+Generating mol 18 with charge 0
+S:  1
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff687d5e10>
+Running HF calculation
+converged SCF energy = -161.845982723222  <S^2> = 0.75005799  2S+1 = 2.000058
+Running CCSD calculation from HF
+E(UCCSD) = -162.0005076406957  E_corr = -0.1545249174738528
+MO Occ shape:  (2, 47)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.00163591901925764
+Spin specified in atom info.
+===========================
+Option Summary: O ---> O
+Spin: 2, Polarized: True, Charge: 0
+===========================
+Generating mol 19 with charge 0
+S:  2
+CCSD(T) calculation commencing
+METHOD:  <pyscf.scf.uhf.UHF object at 0x7fff8c07db90>
+Running HF calculation
+converged SCF energy = -74.8093401342919  <S^2> = 2.0090903  2S+1 = 3.0060541
+Running CCSD calculation from HF
+E(UCCSD) = -74.99083919612065  E_corr = -0.1814990618287633
+MO Occ shape:  (2, 39)
+Running CCSD(T) calculation from CCSD
+UCCSD(T) correction = -0.00332200841998584
+/gpfs/projects/FernandezGroup/Alec/miniconda3/envs/rsrch/lib/python3.7/site-packages/ase/io/jsonio.py:58: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  a = np.array(obj)

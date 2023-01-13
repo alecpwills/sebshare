@@ -78,6 +78,9 @@ parser.add_argument('--valgridlevel', action='store', type=int, default=5, help=
 parser.add_argument('--valmaxcycle', action='store', type=int, default=100, help='max cycle for validation')
 parser.add_argument('--noxcdiffpop', action='store_false', default=True, help='If flagged, does NOT pop the molecules that Sebastian popped from his training set.')
 parser.add_argument('--testpop', action='store_true', default=False, help='for testing purposes')
+parser.add_argument('--passthrough', action='store_true', default=False, help='If flagged, first passthrough of the training trajectory just generates losses and does not update the network until the next pass.')
+parser.add_argument('--subset', action='store_true', default=False, help='If flagged, will use a subset of the dataloader to loop over. Reduces overhead of reading useless files.')
+parser.add_argument('--chkptmax', action='store', default=999999999, type=int, help='If specified, will not continue training after this many checkpoints.')
 args = parser.parse_args()
 
 ttypes = {'float' : torch.float,
@@ -592,6 +595,18 @@ if __name__ == '__main__':
 
     for epoch in range(100000):
         encountered_nan = True
+        if (epoch == 0 and args.passthrough):
+            #will be turned to train after first epoch
+            #first run through will just evaluate on the molecules and print losses
+            print("FIRST PASS: EVALUATION ON TRAINING DATA")
+            scf.xc.evaluate()
+        elif (epoch == 1 and args.passthrough):
+            print("NEXT EPOCH BEGINNING - PASSTHROUGH COMPLETE.")
+            print("SETTING NETWORK TO TRAINING MODE.")
+            scf.xc.train()
+        if epoch == 0:
+            with open(logpath+'_evalloss.dat', 'a') as f:
+                f.write('#epoch\tm_idx\tidx\tat_form\tatsym\t[losskey\tloss\tloss*weight]\n')
         while(encountered_nan):
             error_cnt = 0
             running_losses = {"rho": 0, "ae":0, "E":0}
@@ -634,12 +649,20 @@ if __name__ == '__main__':
                     #previously, this looped over the entire Dataset and matched indices contained in molecule list
                     
                     #TEST: loop over everything, not subset
-                    #print("Subsetting Dataset with molecules[{}]: ".format(molecule), molecules[molecule])
-                    #subset = torch.utils.data.Subset(dataset, molecules[molecule])
-                    #subset_loader = torch.utils.data.DataLoader(subset, batch_size=1, shuffle=False)
-                    for idx, data in enumerate(dataloader_train):
+                    if args.subset:
+                        print("Subsetting Dataset with molecules[{}]: ".format(molecule), molecules[molecule])
+                        subset = torch.utils.data.Subset(dataset, molecules[molecule])
+                        subset_loader = torch.utils.data.DataLoader(subset, batch_size=1, shuffle=False)
+                        loader = subset_loader
+                    else:
+                        loader = dataloader_train
+                    for idx, data in enumerate(loader):
                     #for didx, data in enumerate(subset_loader):
-                        #idx = molecules[molecule][didx]
+                        if args.subset:
+                            print("Subset: Reassigning didx <- idx; idx <- molecules[molecule][didx]")
+                            didx = idx
+                            idx = molecules[molecule][didx]
+                            print(didx, idx)
 
                         #skip non-relevant atoms for current calculation
                         if idx not in molecules[molecule]:
@@ -871,10 +894,10 @@ if __name__ == '__main__':
                         with open(logpath+'_evalloss.dat', 'a') as f:
                             atform = atoms[idx].get_chemical_formula()
                             atsym = atoms[idx].symbols
-                            wstr = '{}\t{}\t{}\t'.format(epoch, atform, atsym)
+                            wstr = '{}\t{}\t{}\t{}\t{}\t'.format(epoch, m_idx, idx, atform, atsym)
                             keys = list(losses_eval.keys())
                             for k in keys:
-                                wstr += '{}\t{}\t'.format(k, losses_eval[k]*losses[k][1])
+                                wstr += '{}\t{}\t{}\t'.format(k, losses_eval[k], losses_eval[k]*losses[k][1])
                             wstr+='\n'
                             f.write(wstr)
                     if not results:
@@ -885,8 +908,11 @@ if __name__ == '__main__':
                     print("PRED_DICT: ", pred_dict)
                     ael = ae_loss(ref_dict,pred_dict)
                     running_losses['ae'] += ael.item()
-                    aelstr = 'AE loss\t {} \t {} \t {} \t {} \t {}\n'.format(epoch, m_idx, m_form, m_sym, args.ae_weight*ael.item())
+                    aelstr = '{}\t {} \t {} \t {} \t {} \t {}\n'.format(epoch, m_idx, m_form, m_sym, ael.item(), args.ae_weight*ael.item())
                     print(aelstr)
+                    if epoch == 0:
+                        with open(logpath+'_aeloss.dat', 'a') as f:
+                            f.write('#epoch\tm_idx\tm_form\tm_sym\tael\tael*lambda_ae\n')
                     with open(logpath+'_aeloss.dat', 'a') as f:
                         f.write(aelstr)
                     if mol_sc:
@@ -896,16 +922,21 @@ if __name__ == '__main__':
                         loss += args.nonsc_weight * ael
                         running_losses['ae'] += args.nonsc_weight * ael.item()
                     total_loss += loss.item()
-                    print("Backward Propagation")
-                    loss.backward()
-                    if args.checkgrad:
-                        for p in scf.xc.parameters():
-                            if p.requires_grad:
-                                print('===========\ngradient\n----------\nmax: {}\nmin: {}'.format(torch.max(p.grad), torch.min(p.grad)))
-                    print("Step Optimizer")
-                    optimizer.step()
-                    print("Zeroing Optimizer Grad")
-                    optimizer.zero_grad()
+                    if (epoch == 0 and args.passthrough):
+                        #if first pass and specify args.passthrough, first pass does evaluation and not train.
+                        #set here to train once first pass completes
+                        print("PASSTHROUGH -- {} DONE.".format(m_form))
+                    else:
+                        print("Backward Propagation")
+                        loss.backward()
+                        if args.checkgrad:
+                            for p in scf.xc.parameters():
+                                if p.requires_grad:
+                                    print('===========\ngradient\n----------\nmax: {}\nmin: {}'.format(torch.max(p.grad), torch.min(p.grad)))
+                        print("Step Optimizer")
+                        optimizer.step()
+                        print("Zeroing Optimizer Grad")
+                        optimizer.zero_grad()
             except RuntimeError:
                 encountered_nan = True
                 chkpt_idx -= 1
@@ -931,12 +962,12 @@ if __name__ == '__main__':
             print("++++++++++++++++++++++++++++++++++")
             if epoch == 0:
                 with open(logpath+'_totallosses.dat', 'w') as f:
-                    wstr = "#\tEpoch\tE\trho\tae\ttotal\n"
+                    wstr = "#\tEpoch\tE\tE*lambda_E\trho\trho*lambda_rho\tae\tae*lambda_ae\ttotal\n"
                     f.write(wstr)
             running_losses = {key:np.sqrt(running_losses[key]/len(molecules))*1000 for key in running_losses}
             total_loss = np.sqrt(total_loss/len(molecules))*1000
             with open(logpath+'_totallosses.dat', 'a') as f:
-                wstr = "{}\t{}\t{}\t{}\t{}\n".format(epoch, running_losses['E']*args.E_weight, running_losses['rho']*args.rho_weight, running_losses['ae']*args.ae_weight, total_loss)
+                wstr = "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(epoch, running_losses['E'], running_losses['E']*args.E_weight, running_losses['rho'], running_losses['rho']*args.rho_weight, running_losses['ae'], running_losses['ae']*args.ae_weight, total_loss)
                 f.write(wstr)
             best_loss = min(total_loss, best_loss)
             chkpt_str = 'NOUPDATE'
@@ -1031,6 +1062,10 @@ if __name__ == '__main__':
                     print("CALCULATED BH: {}".format(bh))
                     print("REFERENCE BH: {}".format(bhr))
                     print("ERROR: |{} - {}| = {}".format(bh, bhr, abs(bh-bhr)))
+
+        if chkpt_idx > args.chkptmax:
+            print("Max checkpoint number reached -- aborting training process.")
+            break
 
                 
                     

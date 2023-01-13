@@ -72,15 +72,31 @@ spins_dict = {
     'N': 3,
     'O': 2,
     'P': 3,
-    'S': 2
+    'S': 2,
+    'Ar':0, #noble
+    'Br':1, #one unpaired electron
+    'Ne':0, #noble
+    'Sb':3, #same column as N/P
+    'Bi':3, #same column as N/P/Sb
+    'Te':2, #same column as O/S
+    'I':1 #one unpaired electron
 }
+
 
 def get_spin(at):
     #if single atom and spin is not specified in at.info dictionary, use spins_dict
+    print('======================')
+    print("GET SPIN: Atoms Info")
+    print(at)
+    print(at.info)
+    print('======================')
     if ( (len(at.positions) == 1) and not ('spin' in at.info) ):
+        print("Single atom and no spin specified in at.info")
         spin = spins_dict[str(at.symbols)]
     else:
-        if at.info.get('spin', None):
+        print("Not a single atom, or spin in at.info")
+        if type(at.info.get('spin', None)) == type(0):
+            #integer specified in at.info['spin'], so use it
             print('Spin specified in atom info.')
             spin = at.info['spin']
         elif 'radical' in at.info.get('name', ''):
@@ -111,6 +127,10 @@ def do_ccsdt(idx,atoms,basis, **kwargs):
         result (ase.Atoms): The Atoms object with result.calc.results['energy'] appropriately set for future use.
     """
     result = Atoms(atoms)
+    print('======================')
+    print("Atoms Info")
+    print(atoms.info)
+    print('======================')
     pos = atoms.positions
     spec = atoms.get_chemical_symbols()
     sping = get_spin(atoms)
@@ -184,7 +204,8 @@ def do_ccsdt(idx,atoms,basis, **kwargs):
                 mf = scf.RHF(mol)
 
         print("METHOD: ", mf)
-        mf.set(chkfile='{}_{}.chkpt'.format(idx, atoms.symbols))
+        if kwargs.get('chk', True):
+            mf.set(chkfile='{}_{}.chkpt'.format(idx, atoms.symbols))
         if kwargs['restart']:
             print("Restart Flagged -- Setting mf.init_guess to chkfile")
             mf.init_guess = '{}_{}.chkpt'.format(idx, atoms.symbols)
@@ -266,7 +287,8 @@ def do_ccsdt(idx,atoms,basis, **kwargs):
                 method = dft.RKS
 
         print("METHOD: ", mf)
-        mf.set(chkfile='{}_{}.chkpt'.format(idx, atoms.symbols))
+        if kwargs.get('chk', True):
+            mf.set(chkfile='{}_{}.chkpt'.format(idx, atoms.symbols))
         if kwargs['restart']:
             print("Restart Flagged -- Setting mf.init_guess to chkfile")
             mf.init_guess = '{}_{}.chkpt'.format(idx, atoms.symbols)
@@ -351,7 +373,10 @@ if __name__ == '__main__':
     setattr(__config__, 'cubegen_box_margin', args.cmargin)
     GCHARGE = args.charge
     atoms = read(args.xyz, ':')
-
+    print("==================")
+    print("ARGS SUMMARY")
+    print(args)
+    print("==================")
     if not args.rerun:
         print('beginning new progress file')
         with open('progress','w') as progfile:
