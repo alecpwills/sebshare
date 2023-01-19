@@ -28,6 +28,10 @@ Directory descriptions:
     - `16` contains: H2, N2, LiF, CNH, C, F, H, Li, N (same atomization/atomic energy set as `05`), and the ionization potentials C+ -> C, Li+ -> Li
     - `17` contains: H2, N2, LiF, CNH, C, F, H, Li, N (same atomization/atomic energy set as `05`), and the barrier heights OH+N2 -> HON2, OH+CH3 -> CH4O, F+HF -> HF2
     - `18` contains: H2, N2, LiF, CNH, C, F, H, Li, N (same atomization/atomic energy set as `05`), the ionization potentials C+ -> C and Li+ -> Li, and the barrier heights OH+N2 -> HON2, OH+CH3 -> CH4O, F+HF -> HF2 
+    - `19` (currently working) will contain: H2, N2, LiF, CNH, C, F, H, Li, N (same atomization/atomic energy set as `05`), the ionization potentials C+ -> C and Li+ -> Li, and the barrier heights OH+N2 -> HON2, OH+CH3 -> CH4O, F+HF -> HF2
+        - This directory starts with the published XCDiff and trains further on this subset
+    - `20` (currently working) will contain: the entire published training trajectory
+        - This directory starts with the published XCDiff and trains further on the published training set
 - `data` contains subdirectories containing the CCSD(T) calculations of the training subset (`test_subset_ps`, file called `subat_refres.traj`) and the validation set (`validation`, file called `val_c.traj`)
 - `scripts` contains the relevant dpyscf-lite scripts (`prep_data.py`, `train.py`, `eval.py`) and the script used to generate the CCSD(T) reference data (`run_pyscf.py`)
 - `notebooks` contains the scripts to generate the current figures
