@@ -1,0 +1,1398 @@
+Attempting directory creation...
+Symlinking /gpfs/scratch/awills/swxcd/eval/test_subset_ps2/18_ogr/MODEL_MGGA_e21//xc to MGGA_XC_CUSTOM/xc
+READING TESTING TRAJECTORY: /gpfs/scratch/awills/swxcd/aegis/validation/val_c.traj
+ATOMIZATION ENERGY FLAGGED -- CALCULATING SINGLE ATOM ENERGIES
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='C', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='H', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='S', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='Cl', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='P', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='N', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='Be', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='F', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='O', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+0 (<pyscf.dft.uks.UKS object at 0x7fff1b80eb10>, functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -37.7158202872808  <S^2> = 2.0051042  2S+1 = 3.0034008
+++++++++++++++++++++++++
+Atomic Energy: C -- -37.7158202872808
+++++++++++++++++++++++++
+Time to Calculate: C -- 52.45049476623535
+++++++++++++++++++++++++
+1 (<pyscf.dft.uks.UKS object at 0x7fff1b80eb50>, functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -0.493147522335792  <S^2> = 0.75  2S+1 = 2
+++++++++++++++++++++++++
+Atomic Energy: H -- -0.4931475223357924
+++++++++++++++++++++++++
+Time to Calculate: H -- 8.142205715179443
+++++++++++++++++++++++++
+2 (<pyscf.dft.uks.UKS object at 0x7fff1b863890>, functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -397.514330200288  <S^2> = 2.0062735  2S+1 = 3.0041794
+++++++++++++++++++++++++
+Atomic Energy: S -- -397.5143302002882
+++++++++++++++++++++++++
+Time to Calculate: S -- 78.72718358039856
+++++++++++++++++++++++++
+3 (<pyscf.dft.uks.UKS object at 0x7fff1b863250>, functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -459.491093614327  <S^2> = 0.75469681  2S+1 = 2.0046913
+++++++++++++++++++++++++
+Atomic Energy: Cl -- -459.49109361432727
+++++++++++++++++++++++++
+Time to Calculate: Cl -- 47.61859345436096
+++++++++++++++++++++++++
+4 (<pyscf.dft.uks.UKS object at 0x7fff1b863850>, functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -340.717540351737  <S^2> = 3.7501929  2S+1 = 4.0000964
+++++++++++++++++++++++++
+Atomic Energy: P -- -340.71754035173706
+++++++++++++++++++++++++
+Time to Calculate: P -- 36.31729769706726
+++++++++++++++++++++++++
+5 (<pyscf.dft.uks.UKS object at 0x7fff1b7f0a10>, functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -54.4304768127008  <S^2> = 3.7540301  2S+1 = 4.0020145
+++++++++++++++++++++++++
+Atomic Energy: N -- -54.430476812700775
+++++++++++++++++++++++++
+Time to Calculate: N -- 38.568408727645874
+++++++++++++++++++++++++
+6 (<pyscf.dft.uks.UKS object at 0x7fff1b7f0710>, functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -14.5944419402752  <S^2> = 0  2S+1 = 1
+++++++++++++++++++++++++
+Atomic Energy: Be -- -14.594441940275164
+++++++++++++++++++++++++
+Time to Calculate: Be -- 27.482535362243652
+++++++++++++++++++++++++
+7 (<pyscf.dft.uks.UKS object at 0x7fff1b7f0090>, functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -99.4900734014391  <S^2> = 0.75225272  2S+1 = 2.0022515
+++++++++++++++++++++++++
+Atomic Energy: F -- -99.4900734014391
+++++++++++++++++++++++++
+Time to Calculate: F -- 79.56269550323486
+++++++++++++++++++++++++
+8 (<pyscf.dft.uks.UKS object at 0x7fff1b862490>, functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -74.8712162349038  <S^2> = 2.00512  2S+1 = 3.0034114
+++++++++++++++++++++++++
+Atomic Energy: O -- -74.87121623490381
+++++++++++++++++++++++++
+Time to Calculate: O -- 68.78147053718567
+++++++++++++++++++++++++
+C	-37.7158202872808
+H	-0.4931475223357924
+S	-397.5143302002882
+Cl	-459.49109361432727
+P	-340.71754035173706
+N	-54.430476812700775
+Be	-14.594441940275164
+F	-99.4900734014391
+O	-74.87121623490381
+start 1676357780.9873517
+0 ['C', 1676357781.224093, 52.45049476623535]
+1 ['H', 1676357833.6747236, 8.142205715179443]
+2 ['S', 1676357841.8169823, 78.72718358039856]
+3 ['Cl', 1676357920.5442235, 47.61859345436096]
+4 ['P', 1676357968.1628673, 36.31729769706726]
+5 ['N', 1676358004.480217, 38.568408727645874]
+6 ['Be', 1676358043.0486891, 27.482535362243652]
+7 ['F', 1676358070.5312777, 79.56269550323486]
+8 ['O', 1676358150.094027, 68.78147053718567]
+end 1676358218.6388
+Attempting read in of previous results.
+S2
+No previous results found. Generating new data.
+================= 0:    S2 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='S2', pbc=False, calculator=SinglePointCalculator(...))
+{'S2': True, 'energy': -795.7439189734063, 'atomization': 0.1652790172181213, 'atomization_ev': 4.497471139250339, 'atomization_H': 0.1652790172181213, 'openshell': True, 'name': 'Disulfur'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -795.211740266456  <S^2> = 2.0091737  2S+1 = 3.0061096
+++++++++++++++++++++++++
+Molecular Energy: S2/S2 -- -795.2117402664563
+++++++++++++++++++++++++
+Time to Calculate: S2/S2 -- 39.3460898399353
+++++++++++++++++++++++++
+Attempting read in of previous results.
+C2H2
+No previous results found. Generating new data.
+================= 1:    C2H2 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='C2H2', pbc=False, calculator=SinglePointCalculator(...))
+{'C2H2': True, 'energy': -77.23364708420903, 'atomization': 0.6458922998762915, 'atomization_ev': 17.575624702100136, 'atomization_H': 0.6458922998762915, 'openshell': False, 'name': 'Acetylene'}
+======================
+Not a single atom, or spin in at.info
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -77.0701933925453  <S^2> = 1.2256862e-13  2S+1 = 1
+++++++++++++++++++++++++
+Molecular Energy: C2H2/C2H2 -- -77.07019339254532
+++++++++++++++++++++++++
+Time to Calculate: C2H2/C2H2 -- 51.77478337287903
+++++++++++++++++++++++++
+Attempting read in of previous results.
+HBe
+No previous results found. Generating new data.
+================= 2:    HBe ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='BeH', pbc=False, calculator=SinglePointCalculator(...))
+{'BeH': True, 'energy': -15.213086658834586, 'atomization': 0.08093697552392216, 'atomization_ev': 2.2024072846262093, 'atomization_H': 0.08093697552392216, 'openshell': True, 'name': 'Beryllium monohydride'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+RuntimeError. Trying with reduced spin.
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='BeH', pbc=False, calculator=SinglePointCalculator(...))
+{'BeH': True, 'energy': -15.213086658834586, 'atomization': 0.08093697552392216, 'atomization_ev': 2.2024072846262093, 'atomization_H': 0.08093697552392216, 'openshell': True, 'name': 'Beryllium monohydride'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='BeH', pbc=False, calculator=SinglePointCalculator(...))
+{'BeH': True, 'energy': -15.213086658834586, 'atomization': 0.08093697552392216, 'atomization_ev': 2.2024072846262093, 'atomization_H': 0.08093697552392216, 'openshell': True, 'name': 'Beryllium monohydride'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -15.1785662381645  <S^2> = 0.75148121  2S+1 = 2.0014807
+++++++++++++++++++++++++
+Molecular Energy: HBe/BeH -- -15.178566238164466
+++++++++++++++++++++++++
+Time to Calculate: HBe/BeH -- 46.98140740394592
+++++++++++++++++++++++++
+Attempting read in of previous results.
+NO2
+No previous results found. Generating new data.
+================= 3:    NO2 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='NO2', pbc=False, calculator=SinglePointCalculator(...))
+{'NO2': True, 'energy': -204.87297985889361, 'atomization': 0.36339749810529004, 'atomization_ev': 9.888549601232311, 'atomization_H': 0.36339749810529004, 'openshell': True, 'name': 'Nitrogen dioxide'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+RuntimeError. Trying with reduced spin.
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='NO2', pbc=False, calculator=SinglePointCalculator(...))
+{'NO2': True, 'energy': -204.87297985889361, 'atomization': 0.36339749810529004, 'atomization_ev': 9.888549601232311, 'atomization_H': 0.36339749810529004, 'openshell': True, 'name': 'Nitrogen dioxide'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='NO2', pbc=False, calculator=SinglePointCalculator(...))
+{'NO2': True, 'energy': -204.87297985889361, 'atomization': 0.36339749810529004, 'atomization_ev': 9.888549601232311, 'atomization_H': 0.36339749810529004, 'openshell': True, 'name': 'Nitrogen dioxide'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -204.57256322979  <S^2> = 0.75319566  2S+1 = 2.0031931
+++++++++++++++++++++++++
+Molecular Energy: NO2/NO2 -- -204.57256322979038
+++++++++++++++++++++++++
+Time to Calculate: NO2/NO2 -- 46.459468603134155
+++++++++++++++++++++++++
+Attempting read in of previous results.
+CH4
+No previous results found. Generating new data.
+================= 4:    CH4 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='CH4', pbc=False, calculator=SinglePointCalculator(...))
+{'CH4': True, 'energy': -40.46144804424925, 'atomization': 0.6695182791315805, 'atomization_ev': 18.218520343819495, 'atomization_H': 0.6695182791315805, 'openshell': False, 'name': 'Methane'}
+======================
+Not a single atom, or spin in at.info
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -40.3590453263953  <S^2> = 5.1780802e-13  2S+1 = 1
+++++++++++++++++++++++++
+Molecular Energy: CH4/CH4 -- -40.359045326395304
+++++++++++++++++++++++++
+Time to Calculate: CH4/CH4 -- 40.45521664619446
+++++++++++++++++++++++++
+Attempting read in of previous results.
+F3P
+No previous results found. Generating new data.
+================= 5:    F3P ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='PF3', pbc=False, calculator=SinglePointCalculator(...))
+{'PF3': True, 'energy': -640.4601109820627, 'atomization': 0.5830966332662726, 'atomization_ev': 15.866867577317441, 'atomization_H': 0.5830966332662726, 'openshell': False, 'name': 'Phosphorus trifluoride'}
+======================
+Not a single atom, or spin in at.info
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -639.787526511748  <S^2> = 2.6645353e-13  2S+1 = 1
+++++++++++++++++++++++++
+Molecular Energy: F3P/PF3 -- -639.7875265117477
+++++++++++++++++++++++++
+Time to Calculate: F3P/PF3 -- 150.0579743385315
+++++++++++++++++++++++++
+Attempting read in of previous results.
+CH2
+No previous results found. Generating new data.
+================= 6:    CH2 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='CH2', pbc=False, calculator=SinglePointCalculator(...))
+{'CH2': True, 'energy': -39.08309334882895, 'atomization': 0.28849746875574045, 'atomization_ev': 7.850415989365281, 'atomization_H': 0.28849746875574045, 'openshell': True, 'name': 'Singlet carbene'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -38.9993650534608  <S^2> = 2.0076231  2S+1 = 3.0050778
+++++++++++++++++++++++++
+Molecular Energy: CH2/CH2 -- -38.999365053460764
+++++++++++++++++++++++++
+Time to Calculate: CH2/CH2 -- 37.94566822052002
+++++++++++++++++++++++++
+Attempting read in of previous results.
+C2H4O2
+No previous results found. Generating new data.
+================= 7:    C2H4O2 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='CO2HCH3', pbc=False, calculator=SinglePointCalculator(...))
+{'C2H4O2': True, 'energy': -228.8242969783602, 'atomization': 1.2540889175521006, 'atomization_ev': 34.125497644391075, 'atomization_H': 1.2540889175521006, 'openshell': False, 'name': 'Methyl formate'}
+======================
+Not a single atom, or spin in at.info
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -228.431512892544  <S^2> = 5.5296212e-11  2S+1 = 1
+++++++++++++++++++++++++
+Molecular Energy: C2H4O2/CO2HCH3 -- -228.43151289254433
+++++++++++++++++++++++++
+Time to Calculate: C2H4O2/CO2HCH3 -- 241.3820095062256
+++++++++++++++++++++++++
+Attempting read in of previous results.
+H
+No previous results found. Generating new data.
+================= 8:    H ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='H', pbc=False)
+{'': True, 'name': 'h', 'dirname': 'h', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 2, 'spin': 1, 'product': 'n2ohts', 'enmult': -1, 'energy': -0.49981791563041966, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -0.493147522351152  <S^2> = 0.75  2S+1 = 2
+++++++++++++++++++++++++
+Molecular Energy: H/H -- -0.4931475223511516
+++++++++++++++++++++++++
+Time to Calculate: H/H -- 8.804797410964966
+++++++++++++++++++++++++
+Attempting read in of previous results.
+N2O
+No previous results found. Generating new data.
+================= 9:    N2O ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='N2O', pbc=False)
+{'': True, 'name': 'n2o', 'dirname': 'n2o', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 1, 'spin': 0, 'product': 'n2ohts', 'enmult': -1, 'energy': -184.47881913926975, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -184.191843878986  <S^2> = 2.4460434e-12  2S+1 = 1
+++++++++++++++++++++++++
+Molecular Energy: N2O/N2O -- -184.19184387898613
+++++++++++++++++++++++++
+Time to Calculate: N2O/N2O -- 80.3307249546051
+++++++++++++++++++++++++
+Attempting read in of previous results.
+HN2O
+No previous results found. Generating new data.
+================= 10:    HN2O ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='HON2', pbc=False)
+{'': True, 'name': 'n2ohts', 'dirname': 'n2ohts', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 2, 'spin': 1, 'product': 'n2ohts', 'enmult': 1, 'bh_ref': 0.028206745454023522, 'energy': -184.94901512929493, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -184.66863771577  <S^2> = 0.76430998  2S+1 = 2.0142592
+++++++++++++++++++++++++
+Molecular Energy: HN2O/HON2 -- -184.66863771577027
+++++++++++++++++++++++++
+Time to Calculate: HN2O/HON2 -- 114.33074688911438
+++++++++++++++++++++++++
+Attempting read in of previous results.
+HO
+No previous results found. Generating new data.
+================= 11:    HO ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='OH', pbc=False)
+{'': True, 'name': 'oh', 'dirname': 'oh', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 2, 'spin': 1, 'product': 'RKT17', 'enmult': -1, 'energy': -75.6622671033986, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -75.5325511940389  <S^2> = 0.75359711  2S+1 = 2.0035939
+++++++++++++++++++++++++
+Molecular Energy: HO/OH -- -75.53255119403889
+++++++++++++++++++++++++
+Time to Calculate: HO/OH -- 37.18136668205261
+++++++++++++++++++++++++
+Attempting read in of previous results.
+Cl
+No previous results found. Generating new data.
+================= 12:    Cl ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='Cl', pbc=False)
+{'': True, 'name': 'cl', 'dirname': 'cl', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 2, 'spin': 1, 'product': 'RKT17', 'enmult': -1, 'energy': -459.75483999758393, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -459.491094908291  <S^2> = 0.75469433  2S+1 = 2.0046888
+++++++++++++++++++++++++
+Molecular Energy: Cl/Cl -- -459.49109490829056
+++++++++++++++++++++++++
+Time to Calculate: Cl/Cl -- 52.030710220336914
+++++++++++++++++++++++++
+Attempting read in of previous results.
+HClO
+No previous results found. Generating new data.
+================= 13:    HClO ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='ClHO', pbc=False)
+{'': True, 'name': 'RKT17', 'dirname': 'RKT17', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 3, 'spin': 2, 'product': 'RKT17', 'enmult': 1, 'bh_ref': 0.01577665423699621, 'energy': -535.4004261314922, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de670e0>, method=<function UKS at 0x7fff1bc04a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -535.032480503034  <S^2> = 2.0102134  2S+1 = 3.0068012
+/gpfs/projects/FernandezGroup/Alec/miniconda3/envs/rsrch/lib/python3.7/site-packages/ase/io/jsonio.py:58: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  a = np.array(obj)
+++++++++++++++++++++++++
+Molecular Energy: HClO/ClHO -- -535.0324805030335
+++++++++++++++++++++++++
+Time to Calculate: HClO/ClHO -- 62.866899251937866
+++++++++++++++++++++++++
+start 1676358218.8788934
+0 ['S2', Symbols('S2'), 1676358218.8789012, 39.3460898399353]
+1 ['C2H2', Symbols('C2H2'), 1676358258.2883928, 51.77478337287903]
+2 ['HBe', Symbols('BeH'), 1676358310.1652684, 46.98140740394592]
+3 ['NO2', Symbols('NO2'), 1676358357.160484, 46.459468603134155]
+4 ['CH4', Symbols('CH4'), 1676358403.6596687, 40.45521664619446]
+5 ['F3P', Symbols('PF3'), 1676358444.2147171, 150.0579743385315]
+6 ['CH2', Symbols('CH2'), 1676358594.3532336, 37.94566822052002]
+7 ['C2H4O2', Symbols('CO2HCH3'), 1676358632.3636613, 241.3820095062256]
+8 ['H', Symbols('H'), 1676358873.8849645, 8.804797410964966]
+9 ['N2O', Symbols('N2O'), 1676358882.6942577, 80.3307249546051]
+10 ['HN2O', Symbols('HON2'), 1676358963.0932267, 114.33074688911438]
+11 ['HO', Symbols('OH'), 1676359077.488014, 37.18136668205261]
+12 ['Cl', Symbols('Cl'), 1676359114.674757, 52.030710220336914]
+13 ['HClO', Symbols('ClHO'), 1676359166.710753, 62.866899251937866]
+end 1010.7822976112366

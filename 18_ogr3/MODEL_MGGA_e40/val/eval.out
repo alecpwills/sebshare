@@ -1,0 +1,3485 @@
+Attempting directory creation...
+Symlinking /gpfs/scratch/awills/swxcd/eval/test_subset_ps2/18_ogr3/MODEL_MGGA_e40//xc to MGGA_XC_CUSTOM/xc
+READING TESTING TRAJECTORY: /gpfs/scratch/awills/swxcd/aegis/validation/val_c.traj
+ATOMIZATION ENERGY FLAGGED -- CALCULATING SINGLE ATOM ENERGIES
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='Be', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='P', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='F', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='Cl', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='S', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='N', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='O', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='H', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='C', pbc=False)
+{}
+======================
+Single atom and no spin specified in at.info
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+0 (<pyscf.dft.uks.UKS object at 0x7fff1b862990>, functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -14.5470248788104  <S^2> = 0  2S+1 = 1
+++++++++++++++++++++++++
+Atomic Energy: Be -- -14.547024878810408
+++++++++++++++++++++++++
+Time to Calculate: Be -- 12.426088809967041
+++++++++++++++++++++++++
+1 (<pyscf.dft.uks.UKS object at 0x7fff1b862610>, functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -340.419102628616  <S^2> = 3.7500823  2S+1 = 4.0000412
+++++++++++++++++++++++++
+Atomic Energy: P -- -340.4191026286161
+++++++++++++++++++++++++
+Time to Calculate: P -- 14.844549179077148
+++++++++++++++++++++++++
+2 (<pyscf.dft.uks.UKS object at 0x7fff1b861990>, functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -99.3405321028127  <S^2> = 0.75210106  2S+1 = 2.0021
+++++++++++++++++++++++++
+Atomic Energy: F -- -99.34053210281269
+++++++++++++++++++++++++
+Time to Calculate: F -- 150.73540425300598
+++++++++++++++++++++++++
+3 (<pyscf.dft.uks.UKS object at 0x7fff1b861590>, functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -459.135515087757  <S^2> = 0.75382792  2S+1 = 2.0038243
+++++++++++++++++++++++++
+Atomic Energy: Cl -- -459.1355150877569
+++++++++++++++++++++++++
+Time to Calculate: Cl -- 48.60293459892273
+++++++++++++++++++++++++
+4 (<pyscf.dft.uks.UKS object at 0x7fff1b861c10>, functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -397.187184465652  <S^2> = 2.0054852  2S+1 = 3.0036546
+++++++++++++++++++++++++
+Atomic Energy: S -- -397.1871844656524
+++++++++++++++++++++++++
+Time to Calculate: S -- 19.443424463272095
+++++++++++++++++++++++++
+5 (<pyscf.dft.uks.UKS object at 0x7fff1b7e1890>, functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -54.3291358404334  <S^2> = 3.7531723  2S+1 = 4.0015858
+++++++++++++++++++++++++
+Atomic Energy: N -- -54.329135840433366
+++++++++++++++++++++++++
+Time to Calculate: N -- 11.874085187911987
+++++++++++++++++++++++++
+6 (<pyscf.dft.uks.UKS object at 0x7fff1b7e1d90>, functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -74.7468267397985  <S^2> = 2.0047187  2S+1 = 3.0031441
+++++++++++++++++++++++++
+Atomic Energy: O -- -74.74682673979848
+++++++++++++++++++++++++
+Time to Calculate: O -- 18.317257165908813
+++++++++++++++++++++++++
+7 (<pyscf.dft.uks.UKS object at 0x7fff1b7e14d0>, functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -0.489209582955784  <S^2> = 0.75  2S+1 = 2
+++++++++++++++++++++++++
+Atomic Energy: H -- -0.489209582955784
+++++++++++++++++++++++++
+Time to Calculate: H -- 5.710713624954224
+++++++++++++++++++++++++
+8 (<pyscf.dft.uks.UKS object at 0x7fff1b7e11d0>, functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>))
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -37.6313006878691  <S^2> = 2.0040614  2S+1 = 3.0027064
+++++++++++++++++++++++++
+Atomic Energy: C -- -37.63130068786913
+++++++++++++++++++++++++
+Time to Calculate: C -- 17.87537145614624
+++++++++++++++++++++++++
+Be	-14.547024878810408
+P	-340.4191026286161
+F	-99.34053210281269
+Cl	-459.1355150877569
+S	-397.1871844656524
+N	-54.329135840433366
+O	-74.74682673979848
+H	-0.489209582955784
+C	-37.63130068786913
+start 1676954895.161494
+0 ['Be', 1676954895.3900836, 12.426088809967041]
+1 ['P', 1676954907.8162327, 14.844549179077148]
+2 ['F', 1676954922.660827, 150.73540425300598]
+3 ['Cl', 1676955073.396276, 48.60293459892273]
+4 ['S', 1676955121.999262, 19.443424463272095]
+5 ['N', 1676955141.442728, 11.874085187911987]
+6 ['O', 1676955153.3168647, 18.317257165908813]
+7 ['H', 1676955171.634174, 5.710713624954224]
+8 ['C', 1676955177.3449304, 17.87537145614624]
+end 1676955194.991746
+Attempting read in of previous results.
+S2
+No previous results found. Generating new data.
+================= 0:    S2 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='S2', pbc=False, calculator=SinglePointCalculator(...))
+{'S2': True, 'energy': -795.7439189734063, 'atomization': 0.1652790172181213, 'atomization_ev': 4.497471139250339, 'atomization_H': 0.1652790172181213, 'openshell': True, 'name': 'Disulfur'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -794.572020805148  <S^2> = 2.0066719  2S+1 = 3.0044447
+++++++++++++++++++++++++
+Molecular Energy: S2/S2 -- -794.5720208051478
+++++++++++++++++++++++++
+Time to Calculate: S2/S2 -- 22.369068145751953
+++++++++++++++++++++++++
+Attempting read in of previous results.
+C2H2
+No previous results found. Generating new data.
+================= 1:    C2H2 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='C2H2', pbc=False, calculator=SinglePointCalculator(...))
+{'C2H2': True, 'energy': -77.23364708420903, 'atomization': 0.6458922998762915, 'atomization_ev': 17.575624702100136, 'atomization_H': 0.6458922998762915, 'openshell': False, 'name': 'Acetylene'}
+======================
+Not a single atom, or spin in at.info
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -76.8977650223381  <S^2> = 4.2987836e-13  2S+1 = 1
+++++++++++++++++++++++++
+Molecular Energy: C2H2/C2H2 -- -76.89776502233812
+++++++++++++++++++++++++
+Time to Calculate: C2H2/C2H2 -- 34.52619194984436
+++++++++++++++++++++++++
+Attempting read in of previous results.
+HBe
+No previous results found. Generating new data.
+================= 2:    HBe ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='BeH', pbc=False, calculator=SinglePointCalculator(...))
+{'BeH': True, 'energy': -15.213086658834586, 'atomization': 0.08093697552392216, 'atomization_ev': 2.2024072846262093, 'atomization_H': 0.08093697552392216, 'openshell': True, 'name': 'Beryllium monohydride'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+RuntimeError. Trying with reduced spin.
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='BeH', pbc=False, calculator=SinglePointCalculator(...))
+{'BeH': True, 'energy': -15.213086658834586, 'atomization': 0.08093697552392216, 'atomization_ev': 2.2024072846262093, 'atomization_H': 0.08093697552392216, 'openshell': True, 'name': 'Beryllium monohydride'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='BeH', pbc=False, calculator=SinglePointCalculator(...))
+{'BeH': True, 'energy': -15.213086658834586, 'atomization': 0.08093697552392216, 'atomization_ev': 2.2024072846262093, 'atomization_H': 0.08093697552392216, 'openshell': True, 'name': 'Beryllium monohydride'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -15.1242222599213  <S^2> = 0.75147709  2S+1 = 2.0014765
+++++++++++++++++++++++++
+Molecular Energy: HBe/BeH -- -15.124222259921341
+++++++++++++++++++++++++
+Time to Calculate: HBe/BeH -- 25.28734254837036
+++++++++++++++++++++++++
+Attempting read in of previous results.
+NO2
+No previous results found. Generating new data.
+================= 3:    NO2 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='NO2', pbc=False, calculator=SinglePointCalculator(...))
+{'NO2': True, 'energy': -204.87297985889361, 'atomization': 0.36339749810529004, 'atomization_ev': 9.888549601232311, 'atomization_H': 0.36339749810529004, 'openshell': True, 'name': 'Nitrogen dioxide'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+RuntimeError. Trying with reduced spin.
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='NO2', pbc=False, calculator=SinglePointCalculator(...))
+{'NO2': True, 'energy': -204.87297985889361, 'atomization': 0.36339749810529004, 'atomization_ev': 9.888549601232311, 'atomization_H': 0.36339749810529004, 'openshell': True, 'name': 'Nitrogen dioxide'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='NO2', pbc=False, calculator=SinglePointCalculator(...))
+{'NO2': True, 'energy': -204.87297985889361, 'atomization': 0.36339749810529004, 'atomization_ev': 9.888549601232311, 'atomization_H': 0.36339749810529004, 'openshell': True, 'name': 'Nitrogen dioxide'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -204.252621047841  <S^2> = 0.75227417  2S+1 = 2.0022729
+++++++++++++++++++++++++
+Molecular Energy: NO2/NO2 -- -204.2526210478411
+++++++++++++++++++++++++
+Time to Calculate: NO2/NO2 -- 29.01169443130493
+++++++++++++++++++++++++
+Attempting read in of previous results.
+CH4
+No previous results found. Generating new data.
+================= 4:    CH4 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='CH4', pbc=False, calculator=SinglePointCalculator(...))
+{'CH4': True, 'energy': -40.46144804424925, 'atomization': 0.6695182791315805, 'atomization_ev': 18.218520343819495, 'atomization_H': 0.6695182791315805, 'openshell': False, 'name': 'Methane'}
+======================
+Not a single atom, or spin in at.info
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -40.2455544445155  <S^2> = 1.8882673e-12  2S+1 = 1
+++++++++++++++++++++++++
+Molecular Energy: CH4/CH4 -- -40.24555444451552
+++++++++++++++++++++++++
+Time to Calculate: CH4/CH4 -- 25.18942165374756
+++++++++++++++++++++++++
+Attempting read in of previous results.
+F3P
+No previous results found. Generating new data.
+================= 5:    F3P ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='PF3', pbc=False, calculator=SinglePointCalculator(...))
+{'PF3': True, 'energy': -640.4601109820627, 'atomization': 0.5830966332662726, 'atomization_ev': 15.866867577317441, 'atomization_H': 0.5830966332662726, 'openshell': False, 'name': 'Phosphorus trifluoride'}
+======================
+Not a single atom, or spin in at.info
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -639.073630721571  <S^2> = 3.907985e-13  2S+1 = 1
+++++++++++++++++++++++++
+Molecular Energy: F3P/PF3 -- -639.0736307215708
+++++++++++++++++++++++++
+Time to Calculate: F3P/PF3 -- 69.13402485847473
+++++++++++++++++++++++++
+Attempting read in of previous results.
+CH2
+No previous results found. Generating new data.
+================= 6:    CH2 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='CH2', pbc=False, calculator=SinglePointCalculator(...))
+{'CH2': True, 'energy': -39.08309334882895, 'atomization': 0.28849746875574045, 'atomization_ev': 7.850415989365281, 'atomization_H': 0.28849746875574045, 'openshell': True, 'name': 'Singlet carbene'}
+======================
+Not a single atom, or spin in at.info
+Openshell specified in atom info, attempting spin 2.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -38.9031828536074  <S^2> = 2.0084036  2S+1 = 3.0055972
+++++++++++++++++++++++++
+Molecular Energy: CH2/CH2 -- -38.90318285360744
+++++++++++++++++++++++++
+Time to Calculate: CH2/CH2 -- 19.941705465316772
+++++++++++++++++++++++++
+Attempting read in of previous results.
+C2H4O2
+No previous results found. Generating new data.
+================= 7:    C2H4O2 ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='CO2HCH3', pbc=False, calculator=SinglePointCalculator(...))
+{'C2H4O2': True, 'energy': -228.8242969783602, 'atomization': 1.2540889175521006, 'atomization_ev': 34.125497644391075, 'atomization_H': 1.2540889175521006, 'openshell': False, 'name': 'Methyl formate'}
+======================
+Not a single atom, or spin in at.info
+No specifications in atom info to help, assuming no spin.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -228.017244685085  <S^2> = 2.1699975e-11  2S+1 = 1
+++++++++++++++++++++++++
+Molecular Energy: C2H4O2/CO2HCH3 -- -228.01724468508485
+++++++++++++++++++++++++
+Time to Calculate: C2H4O2/CO2HCH3 -- 145.8038444519043
+++++++++++++++++++++++++
+Attempting read in of previous results.
+H
+No previous results found. Generating new data.
+================= 8:    H ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='H', pbc=False)
+{'': True, 'name': 'h', 'dirname': 'h', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 2, 'spin': 1, 'product': 'n2ohts', 'enmult': -1, 'energy': -0.49981791563041966, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -0.489209582970895  <S^2> = 0.75  2S+1 = 2
+++++++++++++++++++++++++
+Molecular Energy: H/H -- -0.48920958297089545
+++++++++++++++++++++++++
+Time to Calculate: H/H -- 6.148926734924316
+++++++++++++++++++++++++
+Attempting read in of previous results.
+N2O
+No previous results found. Generating new data.
+================= 9:    N2O ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='N2O', pbc=False)
+{'': True, 'name': 'n2o', 'dirname': 'n2o', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 1, 'spin': 0, 'product': 'n2ohts', 'enmult': -1, 'energy': -184.47881913926975, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -183.893412567851  <S^2> = 2.8190783e-12  2S+1 = 1
+++++++++++++++++++++++++
+Molecular Energy: N2O/N2O -- -183.89341256785056
+++++++++++++++++++++++++
+Time to Calculate: N2O/N2O -- 58.60882616043091
+++++++++++++++++++++++++
+Attempting read in of previous results.
+HN2O
+No previous results found. Generating new data.
+================= 10:    HN2O ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='HON2', pbc=False)
+{'': True, 'name': 'n2ohts', 'dirname': 'n2ohts', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 2, 'spin': 1, 'product': 'n2ohts', 'enmult': 1, 'bh_ref': 0.028206745454023522, 'energy': -184.94901512929493, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -184.365064870435  <S^2> = 0.76293504  2S+1 = 2.0128935
+++++++++++++++++++++++++
+Molecular Energy: HN2O/HON2 -- -184.3650648704346
+++++++++++++++++++++++++
+Time to Calculate: HN2O/HON2 -- 42.71830916404724
+++++++++++++++++++++++++
+Attempting read in of previous results.
+HO
+No previous results found. Generating new data.
+================= 11:    HO ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='OH', pbc=False)
+{'': True, 'name': 'oh', 'dirname': 'oh', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 2, 'spin': 1, 'product': 'RKT17', 'enmult': -1, 'energy': -75.6622671033986, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -75.3993161114209  <S^2> = 0.75344004  2S+1 = 2.0034371
+++++++++++++++++++++++++
+Molecular Energy: HO/OH -- -75.39931611142093
+++++++++++++++++++++++++
+Time to Calculate: HO/OH -- 24.48193335533142
+++++++++++++++++++++++++
+Attempting read in of previous results.
+Cl
+No previous results found. Generating new data.
+================= 12:    Cl ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='Cl', pbc=False)
+{'': True, 'name': 'cl', 'dirname': 'cl', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 2, 'spin': 1, 'product': 'RKT17', 'enmult': -1, 'energy': -459.75483999758393, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Single Atom -- UKS
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+SCF not converged.
+SCF energy = -459.135514795416 after 250 cycles  <S^2> = 0.75383203  2S+1 = 2.0038284
+++++++++++++++++++++++++
+Molecular Energy: Cl/Cl -- -459.13551479541627
+++++++++++++++++++++++++
+Time to Calculate: Cl/Cl -- 383.77478981018066
+++++++++++++++++++++++++
+Attempting read in of previous results.
+HClO
+No previous results found. Generating new data.
+================= 13:    HClO ======================
+Getting Datapoint
+======================
+GET SPIN: Atoms Info
+Atoms(symbols='ClHO', pbc=False)
+{'': True, 'name': 'RKT17', 'dirname': 'RKT17', 'dataset': 'bh76', 'charge': 0, 'multiplicity': 3, 'spin': 2, 'product': 'RKT17', 'enmult': 1, 'bh_ref': 0.01577665423699621, 'energy': -535.4004261314922, 'atomization': nan}
+======================
+Not a single atom, or spin in at.info
+Spin specified in atom info.
+Building grids...
+METHOD GENERATED: functools.partial(<function KS at 0x7fff2de660e0>, method=<function UKS at 0x7fff1bc03a70>)
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+Trying torch.jit.load for network
+torch.jit.load failed, attempting torch.load
+converged SCF energy = -534.553764704687  <S^2> = 2.009008  2S+1 = 3.0059993
+/gpfs/projects/FernandezGroup/Alec/miniconda3/envs/rsrch/lib/python3.7/site-packages/ase/io/jsonio.py:58: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  a = np.array(obj)
+++++++++++++++++++++++++
+Molecular Energy: HClO/ClHO -- -534.5537647046865
+++++++++++++++++++++++++
+Time to Calculate: HClO/ClHO -- 36.62153100967407
+++++++++++++++++++++++++
+start 1676955195.223161
+0 ['S2', Symbols('S2'), 1676955195.223171, 22.369068145751953]
+1 ['C2H2', Symbols('C2H2'), 1676955217.6805542, 34.52619194984436]
+2 ['HBe', Symbols('BeH'), 1676955252.2967741, 25.28734254837036]
+3 ['NO2', Symbols('NO2'), 1676955277.6034098, 29.01169443130493]
+4 ['CH4', Symbols('CH4'), 1676955306.7316623, 25.18942165374756]
+5 ['F3P', Symbols('PF3'), 1676955332.013534, 69.13402485847473]
+6 ['CH2', Symbols('CH2'), 1676955401.2663488, 19.941705465316772]
+7 ['C2H4O2', Symbols('CO2HCH3'), 1676955421.271248, 145.8038444519043]
+8 ['H', Symbols('H'), 1676955567.2002258, 6.148926734924316]
+9 ['N2O', Symbols('N2O'), 1676955573.3543818, 58.60882616043091]
+10 ['HN2O', Symbols('HON2'), 1676955632.046396, 42.71830916404724]
+11 ['HO', Symbols('OH'), 1676955674.877959, 24.48193335533142]
+12 ['Cl', Symbols('Cl'), 1676955699.3661847, 383.77478981018066]
+13 ['HClO', Symbols('ClHO'), 1676956083.147988, 36.62153100967407]
+end 924.6451592445374

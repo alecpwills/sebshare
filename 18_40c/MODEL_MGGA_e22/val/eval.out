@@ -1,0 +1,69 @@
+/gpfs/projects/FernandezGroup/Alec/miniconda3/envs/rsrch/lib/python3.7/site-packages/ase/io/jsonio.py:58: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  a = np.array(obj)
+Attempting directory creation...
+os.mkdir failed, directory likely exists.
+Symlinking /gpfs/scratch/awills/swxcd/eval/test_subset_ps2/18_40c/MODEL_MGGA_e22//xc to MGGA_XC_CUSTOM/xc
+Symlink failed. Another model might be symlinked already.
+READING TESTING TRAJECTORY: /gpfs/scratch/awills/swxcd/aegis/validation/val_c.traj
+Attempting read in of previous results.
+S2
+Results found for 0 S2
+Atoms(symbols='S2', pbc=False, calculator=SinglePointCalculator(...))
+Attempting read in of previous results.
+C2H2
+Results found for 1 C2H2
+Atoms(symbols='C2H2', pbc=False, calculator=SinglePointCalculator(...))
+Attempting read in of previous results.
+HBe
+Results found for 2 BeH
+Atoms(symbols='BeH', pbc=False, calculator=SinglePointCalculator(...))
+Attempting read in of previous results.
+NO2
+Results found for 3 NO2
+Atoms(symbols='NO2', pbc=False, calculator=SinglePointCalculator(...))
+Attempting read in of previous results.
+CH4
+Results found for 4 CH4
+Atoms(symbols='CH4', pbc=False, calculator=SinglePointCalculator(...))
+Attempting read in of previous results.
+F3P
+Results found for 5 PF3
+Atoms(symbols='PF3', pbc=False, calculator=SinglePointCalculator(...))
+Attempting read in of previous results.
+CH2
+Results found for 6 CH2
+Atoms(symbols='CH2', pbc=False, calculator=SinglePointCalculator(...))
+Attempting read in of previous results.
+C2H4O2
+Results found for 7 CO2HCH3
+Atoms(symbols='CO2HCH3', pbc=False, calculator=SinglePointCalculator(...))
+Attempting read in of previous results.
+H
+Results found for 8 H
+Atoms(symbols='H', pbc=False)
+Attempting read in of previous results.
+N2O
+Results found for 9 N2O
+Atoms(symbols='N2O', pbc=False)
+Attempting read in of previous results.
+HN2O
+Results found for 10 HON2
+Atoms(symbols='HON2', pbc=False)
+Attempting read in of previous results.
+HO
+Results found for 11 OH
+Atoms(symbols='OH', pbc=False)
+Attempting read in of previous results.
+Cl
+Results found for 12 Cl
+Atoms(symbols='Cl', pbc=False)
+Attempting read in of previous results.
+HClO
+Results found for 13 ClHO
+Atoms(symbols='ClHO', pbc=False)
+start 1676650201.0394635
+0 ['S2', Symbols('S2'), 1676650201.0394652]
+Traceback (most recent call last):
+  File "/gpfs/home/awills/dpyscfl/scripts/eval2.py", line 399, in <module>
+    f.write('{}\t{}\t{}\t{}\t{}\n'.format(k, v[0], v[1], v[2], v[3]))
+IndexError: list index out of range
