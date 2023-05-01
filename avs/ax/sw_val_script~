@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH --job-name=avs_a_eval
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=alec.wills@stonybrook.edu
+#SBATCH --output=eval.txt
+#SBATCH --ntasks-per-node=1
+#SBATCH --nodes=4
+#SBATCH --time=48:00:00
+#SBATCH -p long-40core
+
+
+cd $HOME
+source .bashrc
+source /gpfs/projects/FernandezGroup/Alec/miniconda3/etc/profile.d/conda.sh
+conda init bash
+conda activate rsrch
+bdir=a
+cd /gpfs/scratch/awills/swxcd/eval/avs/$bdir
+
+for dir in MODEL_MGGA_e*/; do cd $dir; mkdir val; cd val;
+python ~/dpyscfl/scripts/eval2.py --type MGGA --xc SCAN --trajpath /gpfs/scratch/awills/swxcd/aegis/validation/val_c.traj \
+--modelpath /gpfs/scratch/awills/swxcd/eval/avs/$bdir/$dir/xc \
+--maxcycle 250 --atomization --gridlevel 5 --forceUKS \
+--gridlevel 5 2>&1 | tee eval.out; cd ../; cd ../; done;

@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --job-name=avs_sx
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=alec.wills@stonybrook.edu
+#SBATCH --output=subat.txt
+#SBATCH --ntasks-per-node=1
+#SBATCH --nodes=2
+#SBATCH --time=168:00:00
+#SBATCH -p extended-40core
+
+cd $HOME
+source .bashrc
+source /gpfs/projects/FernandezGroup/Alec/miniconda3/etc/profile.d/conda.sh
+
+conda init bash
+conda activate rsrch
+
+cd /gpfs/scratch/awills/swxcd/train/avs/sx
+
+python /gpfs/home/awills/ogdpyscf/scripts/train.py \
+--modelpath /gpfs/home/awills/dpyscfl/models/xcdiff/MODEL_MGGA/xc \
+--type MGGA --datapath /gpfs/scratch/awills/swxcd/data/avs/s \
+--reftraj /gpfs/scratch/awills/swxcd/aegis/avs/s/subat_ref.traj \
+--targetdir /gpfs/scratch/awills/swxcd/eval/avs/sx \
+--logpath . --passthrough --hnorm --print_names --E_weight 0.01 --rho_weight 20 \
+--nonsc_weight 0.01 --l2 1e-6 --print_stdout 2>&1 | tee log.out
